@@ -1,16 +1,168 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: pages
----
-## Welcome to your brand new Statamic site!
-
-Not sure where to do next? Here are a few ideas, but feel free to explore in your own way, in your own time.
-
-- [Jump into the Control Panel](/cp) and edit this page or begin setting up your own collections and blueprints.
-- [Head to the docs](https://statamic.dev) and learn how Statamic works.
-- [Watch some Statamic videos](https://youtube.com/statamic) on YouTube.
-- [Join our Discord chat](https://statamic.com/discord) and meet thousands of other Statamic developers.
-- [Start a discussion](https://github.com/statamic/cms/discussions) and get answers to your questions.
-- [Star Statamic on Github](https://github.com/statamic/cms) if you enjoy using it!
+title: Home
+bard_field:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'BARD FIELD HERE'
+  -
+    type: set
+    attrs:
+      id: lx5s45gg
+      values:
+        type: pricing_table
+        heading: Pricing
+        blurb: "Here's ya prices!"
+        products:
+          -
+            id: lx5qd3kp
+            name: Quartet
+            description: blah
+            features:
+              - Everything
+              - "It's free!"
+            price: '0.00'
+          -
+            id: lx5qdju6
+            name: Small
+            description: 'several members'
+            features:
+              - 'All features'
+              - '25 active singers'
+            price: '123.45'
+  -
+    type: table
+    content:
+      -
+        type: tableRow
+        content:
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '1'
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '2'
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '2'
+      -
+        type: tableRow
+        content:
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: a
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: j
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: dfgh
+      -
+        type: tableRow
+        content:
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: b
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: dfh
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: lk
+author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
+updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
+updated_at: 1717839709

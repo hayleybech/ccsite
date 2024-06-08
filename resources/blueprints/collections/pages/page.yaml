@@ -1,0 +1,109 @@
+title: Page
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: bard_field
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: 'Bard Field'
+              reading_time: true
+              word_count: true
+              always_show_set_button: true
+              sets:
+                main:
+                  display: Main
+                  icon: labs-idea-experimental-flask
+                  sets:
+                    hero:
+                      display: Hero
+                      fields:
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                    pricing_table:
+                      display: 'Pricing Table'
+                      fields:
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: blurb
+                          field:
+                            type: textarea
+                            display: Blurb
+                        -
+                          handle: products
+                          field:
+                            type: grid
+                            display: Products
+                            fields:
+                              -
+                                handle: name
+                                field:
+                                  type: text
+                                  display: Name
+                              -
+                                handle: description
+                                field:
+                                  type: textarea
+                                  display: Description
+                              -
+                                handle: features
+                                field:
+                                  type: list
+                                  display: Features
+                              -
+                                handle: price
+                                field:
+                                  type: text
+                                  display: Price
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
