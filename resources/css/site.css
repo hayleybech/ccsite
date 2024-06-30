@@ -3,3 +3,19 @@
 @import "tailwindcss/utilities";
 
 /* This is all you. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply font-bold text-5xl;
+    }
+    h2{
+        @apply font-bold text-3xl;
+    }
+    p{
+        @apply mb-3 text-sm;
+    }
+}
