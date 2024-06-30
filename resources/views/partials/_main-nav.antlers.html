@@ -1,0 +1,16 @@
+<nav class="bg-brand-purple-dark py-8">
+    <div class="container mx-auto flex justify-between">
+        <div class="flex grow items-center justify-left space-x-4">
+            {{ asset url="/assets/logo.svg" }}
+                <a href="/"><img src="{{ url }}" alt="{{ alt }}" class="h-11 pr-4"></a>
+            {{ /asset }}
+            {{ nav:main_nav }}
+              <a href="{{ url }}" class="p-2 block hover:text-purple-400 uppercase font-bold text-sm text-white text-center">{{ title }}</a>
+            {{ /nav:main_nav }}
+        </div>
+        <div class="flex items-center  space-x-4">
+            {{ partial:button url="https://choirconcierge.com/app/login" text="Login" variant="secondary-inv"}}
+            {{ partial:button url="https://choirconcierge.com/app/login" text="Free Trial" variant="primary"}}
+        </div>
+    </div>
+</nav>

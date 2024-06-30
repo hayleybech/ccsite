@@ -9,7 +9,13 @@ export default {
     ],
 
     theme: {
-        extend: {},
+        fontFamily: {'sans': 'Inter, Arial, Helvetica, sans-serif'},
+        extend: {
+            colors: {
+                'brand-purple-dark': '#200142',
+                'brand-off-white': '#f2f1f3',
+            }
+        },
     },
 
     plugins: [

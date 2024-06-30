@@ -1,0 +1,12 @@
+<a
+    href="{{ url }}"
+    class="
+        font-bold text-sm text-center px-10 py-3 rounded-full uppercase shadow-md
+        {{ [
+            'text-white bg-purple-800 hover:bg-purple-900' => variant==='primary',
+            'text-white hover:text-purple-200 border-2 border-white hover:border-purple-400' => variant==='secondary-inv',
+        ] | classes}}
+     "
+>
+    {{ text }}
+</a>
