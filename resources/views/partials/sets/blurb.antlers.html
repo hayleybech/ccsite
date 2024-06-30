@@ -1,0 +1,23 @@
+<section class="py-12 bg-gray-100">
+    <div class="container mx-auto flex w-full justify-center gap-20 items-center">
+        <div class="flex flex-col gap-4">
+            <div class="text-purple-800">
+                <h2>
+                    {{ heading }}
+                </h2>
+            </div>
+            <div>
+                {{ description }}
+            </div>
+            <div>
+                {{ partial:button url="/" text="Learn More" variant="primary" }}
+            </div>
+        </div>
+        <div class="w-1/2 shrink-0 ">
+            {{ image }}
+            <img src="{{ url }}" alt="{{ alt }}" />
+            {{ /image }}
+        </div>
+    </div>
+</section>
+

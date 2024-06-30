@@ -73,6 +73,33 @@ tabs:
                                 field:
                                   type: text
                                   display: Price
+                    blurb:
+                      display: Blurb
+                      fields:
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                            width: 50
+                        -
+                          handle: image
+                          field:
+                            max_files: 1
+                            container: assets
+                            type: assets
+                            display: Image
+                            width: 50
+                        -
+                          handle: description
+                          field:
+                            type: markdown
+                            display: Description
+                        -
+                          handle: button_url
+                          field:
+                            type: link
+                            display: 'Button URL'
           -
             handle: author
             field:
