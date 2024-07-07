@@ -1,4 +1,4 @@
-<div class="bg-white mb-2 flex flex-col rounded-lg p-8 border-2 border-purple-800 drop-shadow-md group items-center">
+<div class="bg-white mb-2 flex flex-col rounded-lg p-8 border-2 border-purple-800 drop-shadow-lg group items-left">
     <h3 class="font-extrabold mb-2 text-xl">{{ name }}</h3>
     <div class="uppercase text-sm font-bold mb-8">{{ description }}</div>
     <div class="flex flex-row gap-2 justify-items-center">
@@ -8,10 +8,11 @@
             {{ if frequency }}<div class="text-sm">{{ frequency }}</div> {{ /if }}
         </div>
     </div>
-    <div class="border-t-2 border-gray-300 pt-8">
-        <ul class="list-disc list-inside text-xs text-gray-600 space-y-4">
+    <div>
+        <ul class="list-inside text-xs text-gray-600 space-y-4">
             {{ features }}
             <li>
+                <i class="fa fa-check text-brand-purple-dark mr-2"></i>
                 {{ value }}
             </li>
             {{ /features }}
