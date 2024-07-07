@@ -100,6 +100,17 @@ tabs:
                           field:
                             type: link
                             display: 'Button URL'
+                            width: 50
+                        -
+                          handle: image_p
+                          field:
+                            options:
+                              left: Left
+                              right: Right
+                            inline: true
+                            type: radio
+                            display: 'Image Position'
+                            width: 50
           -
             handle: author
             field:
