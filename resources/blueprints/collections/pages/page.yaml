@@ -42,37 +42,65 @@ tabs:
                           field:
                             type: text
                             display: Heading
+                            width: 50
                         -
                           handle: blurb
                           field:
                             type: textarea
                             display: Blurb
+                            width: 50
                         -
                           handle: products
                           field:
                             type: grid
                             display: Products
+                            mode: stacked
                             fields:
                               -
                                 handle: name
                                 field:
                                   type: text
                                   display: Name
+                                  width: 50
                               -
                                 handle: description
                                 field:
                                   type: textarea
                                   display: Description
+                                  width: 50
                               -
-                                handle: features
+                                handle: currency
                                 field:
-                                  type: list
-                                  display: Features
+                                  type: text
+                                  display: Currency
+                                  width: 33
                               -
                                 handle: price
                                 field:
                                   type: text
                                   display: Price
+                                  width: 33
+                              -
+                                handle: frequency
+                                field:
+                                  type: text
+                                  display: Frequency
+                                  width: 33
+                              -
+                                handle: features
+                                field:
+                                  type: list
+                                  display: Features
+                        -
+                          handle: call_to_action
+                          field:
+                            type: markdown
+                            display: 'Call to Action'
+                        -
+                          handle: button_url
+                          field:
+                            type: link
+                            display: 'Button URL'
                     blurb:
                       display: Blurb
                       fields:

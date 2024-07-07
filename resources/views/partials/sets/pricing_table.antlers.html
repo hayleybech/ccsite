@@ -1,24 +1,34 @@
-<section class="pricing_table py-8 bg-purple-300 w-full flex justify-center">
-    <div class="text-center ">
-        <h2>{{ heading }}</h2>
-        <div class="mb-4">{{ blurb }}</div>
-
-        <div class="flex flex-row gap-x-2">
-            {{ products }}
-                <div class="bg-white mb-2 flex flex-col rounded-lg px-4 py-2">
-                    <h3>{{ name }}</h3>
-                    <div>{{ description }}</div>
-                    <div>
-                        <ul>
-                            {{ features }}
-                            <li>{{ value }}</li>
-                            {{ /features }}
-                        </ul>
+<section class="py-12 w-full">
+    <div class="container mx-auto flex justify-center">
+        <div>
+            <div class="text-center">
+                <h2 class="text-purple-800 mb-4">{{ heading }}</h2>
+                <div class="mb-12">{{ blurb }}</div>
+            </div>
+            <div class="text-left flex flex-row gap-x-8">
+                {{ products }}
+                    <div class="bg-white mb-2 flex flex-col rounded-lg p-8 border-2 border-purple-800 drop-shadow-md group items-center">
+                        <h3 class="font-extrabold mb-2 text-xl">{{ name }}</h3>
+                        <div class="uppercase text-sm font-bold mb-8">{{ description }}</div>
+                        <div class="flex flex-row gap-2 justify-items-center">
+                            <div class="text-4xl font-extrabold text-purple-800 mb-8">{{ price }}</div>
+                            <div class="flex flex-col">
+                                {{ if currency }}  <div class="text-sm">{{ currency }}</div> {{ /if }}
+                                {{ if frequency }}<div class="text-sm">{{ frequency }}</div> {{ /if }}
+                            </div>
+                        </div>
+                        <div class="border-t-2 border-gray-300 pt-8">
+                            <ul class="list-disc list-inside text-xs text-gray-600 space-y-4">
+                                {{ features }}
+                                <li>
+                                    {{ value }}
+                                </li>
+                                {{ /features }}
+                            </ul>
+                        </div>
                     </div>
-                    <div class="text-lg font-extrabold">{{ price }}</div>
-                </div>
-            {{ /products }}
+                {{ /products }}
+            </div>
         </div>
-
     </div>
 </section>
