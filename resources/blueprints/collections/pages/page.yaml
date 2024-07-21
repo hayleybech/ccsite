@@ -34,6 +34,28 @@ tabs:
                           field:
                             type: text
                             display: Heading
+                        -
+                          handle: description
+                          field:
+                            type: textarea
+                            display: Description
+                        -
+                          handle: button_label
+                          field:
+                            type: text
+                            display: 'Button Label'
+                            width: 50
+                        -
+                          handle: button_url
+                          field:
+                            type: link
+                            display: 'Button URL'
+                            width: 50
+                        -
+                          handle: icon
+                          field:
+                            type: text
+                            display: Icon
                     pricing_table:
                       display: 'Pricing Table'
                       fields:
@@ -97,10 +119,17 @@ tabs:
                             type: markdown
                             display: 'Call to Action'
                         -
+                          handle: button_label
+                          field:
+                            type: text
+                            display: 'Button Label'
+                            width: 50
+                        -
                           handle: button_url
                           field:
                             type: link
                             display: 'Button URL'
+                            width: 50
                     blurb:
                       display: Blurb
                       fields:
@@ -109,7 +138,7 @@ tabs:
                           field:
                             type: text
                             display: Heading
-                            width: 50
+                            width: 33
                         -
                           handle: image
                           field:
@@ -117,7 +146,17 @@ tabs:
                             container: assets
                             type: assets
                             display: Image
-                            width: 50
+                            width: 33
+                        -
+                          handle: image_p
+                          field:
+                            options:
+                              left: Left
+                              right: Right
+                            inline: true
+                            type: radio
+                            display: 'Image Position'
+                            width: 33
                         -
                           handle: description
                           field:
@@ -130,14 +169,10 @@ tabs:
                             display: 'Button URL'
                             width: 50
                         -
-                          handle: image_p
+                          handle: button_label
                           field:
-                            options:
-                              left: Left
-                              right: Right
-                            inline: true
-                            type: radio
-                            display: 'Image Position'
+                            type: text
+                            display: 'Button Label'
                             width: 50
           -
             handle: author
