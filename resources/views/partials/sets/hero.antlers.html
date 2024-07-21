@@ -1,0 +1,27 @@
+<header class="text-white bg-gradient-to-t from-[#361a55] to-purple-800">
+    <div class="container mx-auto">
+        <div class="flex gap-8 justify-between">
+            <div class="flex flex-col gap-8 py-20 justify-center w-1/2">
+                <ul class="breadcrumbs flex flex-row gap-2">
+                    <li>
+                        <a href="/" class="mr-3">Home</a>
+                    </li>
+                    {{ nav:breadcrumbs include_home="false"}}
+                        <li{{ if is_current }} class="font-bold"{{ /if }}>
+                            <a href="{{ url }}"><i class="fas fa-chevron-right mr-4"></i>{{ title }}</a>
+                        </li>
+                    {{ /nav:breadcrumbs }}
+                </ul>
+                <h1> {{ heading }} </h1>
+                <div> {{ description }} </div>
+                <div>
+                    {{ partial:button url="/" text="Start Free Trial" variant="secondary-inv"}}
+                </div>
+            </div>
+            <div class="flex flex-col justify-center text-brand-purple-dark text-[18em] mix-blend-screen">
+                <i class="{{ icon }}"></i>
+            </div>
+        </div>
+    </div>
+</header>
+
