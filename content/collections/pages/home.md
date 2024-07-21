@@ -6,6 +6,15 @@ bard_field:
   -
     type: set
     attrs:
+      id: lybelcnk
+      values:
+        type: hero
+        heading: 'Choir Management Software'
+        description: 'Spend more time singing with everything you need to manage your day-to-day choir operations in one user-friendly app.'
+        icon: 'fad fa-list-music'
+  -
+    type: set
+    attrs:
       id: ly1fu3cr
       values:
         type: blurb
@@ -90,5 +99,5 @@ bard_field:
         image_p: right
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1720345775
+updated_at: 1721559289
 ---
