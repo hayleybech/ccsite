@@ -16,6 +16,6 @@
         @apply font-bold text-3xl;
     }
     p{
-        @apply mb-3 text-sm;
+        @apply mb-3 text-base;
     }
 }
