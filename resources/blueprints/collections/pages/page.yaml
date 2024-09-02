@@ -211,18 +211,19 @@ tabs:
                                 field:
                                   type: text
                                   display: Icon
-                                  width: 50
+                                  width: 33
                               -
                                 handle: name
                                 field:
                                   type: text
                                   display: Name
-                                  width: 50
+                                  width: 66
                               -
                                 handle: description
                                 field:
                                   type: textarea
                                   display: Description
+                                  width: 50
                         -
                           handle: button_url
                           field:

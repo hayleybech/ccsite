@@ -45,7 +45,7 @@ bard_field:
             name: 'Manage Memberships'
             icon: 'fad fa-list-music'
             descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: "Store and track key membership details, including membership fees, voice parts, and customised user roles. You'll also be able to automate your onboarding workflow to streamline the process of bringing on new members, including creating checklists, sending notifications, and scheduling follow-ups."
           -
             id: m0kmoney
             name: 'Share Music & Files'
@@ -149,5 +149,5 @@ bard_field:
         image_p: right
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1725265271
+updated_at: 1725266397
 ---
