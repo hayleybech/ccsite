@@ -1,0 +1,46 @@
+<section class="py-12">
+    <div class="container mx-auto flex w-full justify-center gap-20 items-center">
+        <div>
+            <div class="text-center flex flex-col gap-4">
+                <h2 class="text-purple-800 ">
+                {{ heading }}
+                </h2>
+                <div>
+                {{ blurb }}
+                </div>
+            </div>
+            {{ image }}
+                <div class="relative overflow-hidden pt-16">
+                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                        <img src="{{ url }}" alt="{{ alt }}" class="rounded-xl shadow-2xl ring-1 ring-gray-900/10" width="2432" height="1442">
+                        <div class="relative" aria-hidden="true">
+                            <div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[15%]"></div>
+                        </div>
+                    </div>
+                </div>
+            {{ /image }}
+            <div class="mt-16 sm:mt-20 md:mt-24">
+                <dl class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+                    {{ features }}
+                        <div class="relative pl-9">
+                            <dt class="inline font-semibold text-purple-800">
+                                <div class="absolute left-1 top-1 text-xl text-brand-purple-dark" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <i class="{{ icon }}"></i>
+                                </div>
+                                <div class="text-lg">
+                                    {{ name }}
+                                </div>
+                            </dt>
+                            <dd>
+                            {{ description }}
+                            </dd>
+                        </div>
+                {{ /features }}
+                </dl>
+            </div>
+            <div class="flex mt-12 sm:mt-16 md:mt-20 justify-center">
+                {{ partial:button url="/" text="Learn More" variant="primary" }}
+            </div>
+        </div>
+    </div>
+</section>

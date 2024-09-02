@@ -15,7 +15,7 @@ bard_field:
   -
     type: set
     attrs:
-      id: ly1fu3cr
+      id: m0kqdclf
       values:
         type: blurb
         heading: 'Our Story'
@@ -31,7 +31,57 @@ bard_field:
   -
     type: set
     attrs:
-      id: lx5s45gg
+      id: m0kqbr1f
+      values:
+        type: features_lg_screenshot
+        kicker: Features
+        heading: 'Everything You Need To Manage Your Choir'
+        blurb: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+        button_url: /features/
+        button_label: 'Get More Details'
+        features:
+          -
+            id: m0kmomcc
+            name: 'Manage Memberships'
+            icon: 'fad fa-list-music'
+            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+          -
+            id: m0kmoney
+            name: 'Share Music & Files'
+            icon: 'fad fa-list-music'
+            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+          -
+            id: m0kmooai
+            name: 'Coordinate Events'
+            icon: 'fad fa-list-music'
+            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+          -
+            id: m0kmoozu
+            name: 'Simplify Learning'
+            descrip: 'Link to "Learning Tools"'
+            icon: 'fad fa-list-music'
+            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+          -
+            id: m0kmopj6
+            name: 'Improve Communication'
+            icon: 'fad fa-list-music'
+            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+          -
+            id: m0kmoq3g
+            name: 'Switch Between Choirs'
+            descrip: 'You have one login for all of your choirs – and can jump between them quickly!'
+            icon: 'fad fa-list-music'
+            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+        image:
+          - event-show.png
+  -
+    type: set
+    attrs:
+      id: m0kkvton
       values:
         type: pricing_table
         heading: 'One Price, Every Feature'
@@ -99,5 +149,5 @@ bard_field:
         image_p: right
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1721559289
+updated_at: 1725265271
 ---

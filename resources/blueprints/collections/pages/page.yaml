@@ -201,10 +201,10 @@ tabs:
                             type: assets
                             display: Media
                         -
-                          handle: features_grid
+                          handle: features
                           field:
                             type: grid
-                            display: 'Features Grid'
+                            display: Features
                             fields:
                               -
                                 handle: icon
@@ -219,7 +219,7 @@ tabs:
                                   display: Name
                                   width: 50
                               -
-                                handle: descrip
+                                handle: description
                                 field:
                                   type: textarea
                                   display: Description
