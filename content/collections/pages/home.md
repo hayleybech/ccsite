@@ -12,6 +12,8 @@ bard_field:
         heading: 'Choir Management Software'
         description: 'Spend more time singing with everything you need to manage your day-to-day choir operations in one user-friendly app.'
         icon: 'fad fa-list-music'
+        button_label: 'Start Free Trial'
+        button_url: 'https://choirconcierge.com/app/register'
   -
     type: set
     attrs:
@@ -25,9 +27,10 @@ bard_field:
           Choir Concierge was born out of a desire to create a choir management tool that was powerful, but also incredibly simple. The product was designed with user experience as the top priority.
 
           After 7+ years of development, we are proud to be able to share with you our software. We truly believe it is a cutting-edge solution that won’t just help you manage your choir, but will also be easy to use while doing it.
-        button_url: 'https://www.choirconcierge.com/'
+        button_url: /about-us/
         image: 436748605_261393923666433_7699764950218552369_n.jpg
         image_p: left
+        button_label: 'Learn More'
   -
     type: set
     attrs:
@@ -131,6 +134,8 @@ bard_field:
         call_to_action: |-
           **Ready for easier choir management?**
           Get Started with Choir Concierge today with a 30-day FREE trial.
+        button_label: 'Start Free Trial'
+        button_url: 'https://choirconcierge.com/app/register'
   -
     type: set
     attrs:
@@ -144,10 +149,11 @@ bard_field:
           Choir Concierge was born out of a desire to create a choir management tool that was powerful, but also incredibly simple. The product was designed with user experience as the top priority.
 
           After 7+ years of development, we are proud to be able to share with you our software. We truly believe it is a cutting-edge solution that won’t just help you manage your choir, but will also be easy to use while doing it.
-        button_url: 'https://www.choirconcierge.com/'
+        button_url: /
         image: 436748605_261393923666433_7699764950218552369_n.jpg
         image_p: right
+        button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1725266397
+updated_at: 1725267414
 ---
