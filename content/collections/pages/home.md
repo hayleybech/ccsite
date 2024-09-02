@@ -46,7 +46,7 @@ bard_field:
           -
             id: m0kmomcc
             name: 'Manage Memberships'
-            icon: 'fad fa-list-music'
+            icon: 'fas fa-users'
             descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
             description: "Store and track key membership details, including membership fees, voice parts, and customised user roles. You'll also be able to automate your onboarding workflow to streamline the process of bringing on new members, including creating checklists, sending notifications, and scheduling follow-ups."
           -
@@ -58,26 +58,26 @@ bard_field:
           -
             id: m0kmooai
             name: 'Coordinate Events'
-            icon: 'fad fa-list-music'
+            icon: 'fas fa-calendar-alt'
             descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
             description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
           -
             id: m0kmoozu
             name: 'Simplify Learning'
             descrip: 'Link to "Learning Tools"'
-            icon: 'fad fa-list-music'
+            icon: 'fas fa-chart-network'
             description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
           -
             id: m0kmopj6
             name: 'Improve Communication'
-            icon: 'fad fa-list-music'
+            icon: 'fas fa-comments-alt'
             descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
             description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
           -
             id: m0kmoq3g
             name: 'Switch Between Choirs'
             descrip: 'You have one login for all of your choirs – and can jump between them quickly!'
-            icon: 'fad fa-list-music'
+            icon: 'fas fa-door-open'
             description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
         image:
           - event-show.png
@@ -153,7 +153,31 @@ bard_field:
         image: 436748605_261393923666433_7699764950218552369_n.jpg
         image_p: right
         button_label: 'Learn More'
+  -
+    type: set
+    attrs:
+      id: m0kticnk
+      values:
+        type: reviews
+        kicker: 'What Our Customers Think'
+        heading: 'Trusted By Choirs Globally'
+        description: 'Choir Concierge is trusted by choirs from around the world.'
+        reviews:
+          -
+            id: m0ktkbam
+            logo:
+              - baden_st_logo_v1-150x150.png
+            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
+            name: 'Sally McMaster'
+            role: 'Choir Singer, The Baden Street Singers'
+          -
+            id: m0ktql40
+            logo:
+              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
+            name: 'Jono Albertini'
+            role: 'Choir Director, The Blenders'
+            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1725267414
+updated_at: 1725272594
 ---

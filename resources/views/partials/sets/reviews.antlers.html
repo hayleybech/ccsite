@@ -1,0 +1,27 @@
+<section class="bg-white py-24 sm:py-32">
+    <div>
+        <h2 class="text-purple-800 text-center">{{ heading }}</h2>
+    </div>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            {{ reviews }}
+            <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+                {{ logo }}
+                <img src="{{ url }}" alt="{{ alt }}" class="h-20 self-start" >
+                {{ /logo }}
+                <figure class="mt-10 flex flex-auto flex-col justify-between">
+                    <blockquote class="text-lg leading-8 text-gray-900">
+                        <p>“{{ testimonial }}”</p>
+                    </blockquote>
+                    <figcaption class="mt-10 flex items-center gap-x-6">
+                        <div class="text-base">
+                            <div class="font-semibold text-gray-900">{{ name }}</div>
+                            <div class="mt-1 text-gray-500">{{ role }}</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            {{ /reviews }}
+        </div>
+    </div>
+</section>

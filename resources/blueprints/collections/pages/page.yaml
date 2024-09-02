@@ -236,6 +236,53 @@ tabs:
                             type: text
                             display: 'Button Label'
                             width: 50
+                    reviews:
+                      display: Reviews
+                      fields:
+                        -
+                          handle: kicker
+                          field:
+                            type: text
+                            display: Kicker
+                            width: 50
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                            width: 50
+                        -
+                          handle: description
+                          field:
+                            type: textarea
+                            display: Description
+                        -
+                          handle: reviews
+                          field:
+                            type: grid
+                            display: Reviews
+                            fields:
+                              -
+                                handle: logo
+                                field:
+                                  container: assets
+                                  type: assets
+                                  display: Logo
+                              -
+                                handle: testimonial
+                                field:
+                                  type: textarea
+                                  display: Testimonial
+                              -
+                                handle: name
+                                field:
+                                  type: text
+                                  display: Name
+                              -
+                                handle: role
+                                field:
+                                  type: text
+                                  display: Role
           -
             handle: author
             field:
