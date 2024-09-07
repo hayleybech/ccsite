@@ -17,23 +17,6 @@ bard_field:
   -
     type: set
     attrs:
-      id: m0kqdclf
-      values:
-        type: blurb
-        heading: 'Our Story'
-        description: |-
-          Choir Concierge is a passion project started by Australian software developer and music lover Hayley Bech. As a choir director and music team member for multiple choirs, Hayley has had the opportunity to work with the majority of popular choir management apps on the market, learning what is important for choir management and what could be improved upon.
-
-          Choir Concierge was born out of a desire to create a choir management tool that was powerful, but also incredibly simple. The product was designed with user experience as the top priority.
-
-          After 7+ years of development, we are proud to be able to share with you our software. We truly believe it is a cutting-edge solution that won’t just help you manage your choir, but will also be easy to use while doing it.
-        button_url: /about-us/
-        image: 436748605_261393923666433_7699764950218552369_n.jpg
-        image_p: left
-        button_label: 'Learn More'
-  -
-    type: set
-    attrs:
       id: m0kqbr1f
       values:
         type: features_lg_screenshot
@@ -60,7 +43,9 @@ bard_field:
             name: 'Coordinate Events'
             icon: 'fas fa-calendar-alt'
             descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: |-
+              Plan and track your choir's events with ease. View upcoming events in calendar or list views of and sync events to your calendar app. You can also track RSVPs and attendance, generate attendance reports, and view event venue locations on Google Maps.
+              Event organisers can also add set lists, schedules, and even assign specific riser positions to singers, helping to streamline event logistics and preparation.
           -
             id: m0kmoozu
             name: 'Simplify Learning'
@@ -139,7 +124,56 @@ bard_field:
   -
     type: set
     attrs:
+      id: m0rr7m3q
+      values:
+        type: reviews
+        kicker: 'What Our Customers Think'
+        heading: 'Trusted By Choirs Globally'
+        description: 'Choir Concierge is trusted by choirs from around the world.'
+        reviews:
+          -
+            id: m0ktkbam
+            logo:
+              - baden_st_logo_v1-150x150.png
+            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
+            name: 'Sally McMaster'
+            role: 'Singer, The Baden Street Singers'
+          -
+            id: m0ktql40
+            logo:
+              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
+            name: 'Jono Albertini'
+            role: 'Musical Director, The Blenders'
+            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
+          -
+            id: m0kzlftq
+            logo:
+              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
+            name: 'Jono Albertini'
+            role: 'Musical Director, The Blenders'
+            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
+  -
+    type: set
+    attrs:
+      id: m0rr706r
+      values:
+        type: blurb
+        heading: 'Our Story'
+        description: |-
+          Choir Concierge is a passion project started by Australian software developer and music lover Hayley Bech. As a choir director and music team member for multiple choirs, Hayley has had the opportunity to work with the majority of popular choir management apps on the market, learning what is important for choir management and what could be improved upon.
+
+          Choir Concierge was born out of a desire to create a choir management tool that was powerful, but also incredibly simple. The product was designed with user experience as the top priority.
+
+          After 7+ years of development, we are proud to be able to share with you our software. We truly believe it is a cutting-edge solution that won’t just help you manage your choir, but will also be easy to use while doing it.
+        button_url: /about-us/
+        image: 436748605_261393923666433_7699764950218552369_n.jpg
+        image_p: left
+        button_label: 'Learn More'
+  -
+    type: set
+    attrs:
       id: lyb51lhj
+      enabled: false
       values:
         type: blurb
         heading: 'Our Story'
@@ -153,31 +187,7 @@ bard_field:
         image: 436748605_261393923666433_7699764950218552369_n.jpg
         image_p: right
         button_label: 'Learn More'
-  -
-    type: set
-    attrs:
-      id: m0kticnk
-      values:
-        type: reviews
-        kicker: 'What Our Customers Think'
-        heading: 'Trusted By Choirs Globally'
-        description: 'Choir Concierge is trusted by choirs from around the world.'
-        reviews:
-          -
-            id: m0ktkbam
-            logo:
-              - baden_st_logo_v1-150x150.png
-            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
-            name: 'Sally McMaster'
-            role: 'Choir Singer, The Baden Street Singers'
-          -
-            id: m0ktql40
-            logo:
-              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
-            name: 'Jono Albertini'
-            role: 'Choir Director, The Blenders'
-            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1725272594
+updated_at: 1725690030
 ---
