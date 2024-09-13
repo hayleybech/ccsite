@@ -17,6 +17,33 @@ bard_field:
   -
     type: set
     attrs:
+      id: m107shkx
+      values:
+        type: logo_cloud
+        logos:
+          -
+            id: m1084y2a
+            logo_image:
+              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
+          -
+            id: m1084ys9
+            logo_image:
+              - baden_st_logo_v1-150x150.png
+          -
+            id: m1084zh3
+            logo_image:
+              - logo.svg
+          -
+            id: m108509t
+            logo_image:
+              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
+          -
+            id: m10850tt
+            logo_image:
+              - images.png
+  -
+    type: set
+    attrs:
       id: m0kqbr1f
       values:
         type: features_lg_screenshot
@@ -127,8 +154,8 @@ bard_field:
       id: m0rr7m3q
       values:
         type: reviews
-        kicker: 'What Our Customers Think'
-        heading: 'Trusted By Choirs Globally'
+        kicker: Reviews
+        heading: 'What Our Customers Think'
         description: 'Choir Concierge is trusted by choirs from around the world.'
         reviews:
           -
@@ -189,5 +216,5 @@ bard_field:
         button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1725690030
+updated_at: 1726203331
 ---

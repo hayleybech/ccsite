@@ -283,6 +283,26 @@ tabs:
                                 field:
                                   type: text
                                   display: Role
+                    logo_cloud:
+                      display: 'Logo Cloud'
+                      fields:
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: logos
+                          field:
+                            type: grid
+                            display: Logos
+                            fields:
+                              -
+                                handle: logo_image
+                                field:
+                                  container: assets
+                                  type: assets
+                                  display: 'Logo Image'
           -
             handle: author
             field:
