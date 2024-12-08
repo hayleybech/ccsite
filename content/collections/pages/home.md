@@ -42,11 +42,7 @@ bard_field:
           -
             id: m1084zh3
             logo_image:
-              - logo.svg
-          -
-            id: m108509t
-            logo_image:
-              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
+              - pansol-logo.png
           -
             id: m10850tt
             logo_image:
@@ -226,5 +222,5 @@ bard_field:
         button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1733641311
+updated_at: 1733645513
 ---
