@@ -35,9 +35,14 @@ tabs:
                             type: text
                             display: Heading
                         -
+                          handle: ux_header
+                          field:
+                            type: text
+                            display: 'UX Header'
+                        -
                           handle: description
                           field:
-                            type: textarea
+                            type: markdown
                             display: Description
                         -
                           handle: button_label
@@ -56,6 +61,14 @@ tabs:
                           field:
                             type: text
                             display: Icon
+                            width: 50
+                        -
+                          handle: image
+                          field:
+                            container: assets
+                            type: assets
+                            display: 'Image (instead of icon)'
+                            width: 50
                         -
                           handle: home_page_header
                           field:

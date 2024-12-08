@@ -9,12 +9,21 @@ bard_field:
       id: lybelcnk
       values:
         type: hero
-        heading: 'Choir Management Software'
-        description: 'Spend more time singing with everything you need to manage your day-to-day choir operations in one user-friendly app.'
+        heading: 'The Latest in Choir Management Software'
+        description: |-
+          **Save time, money, and stress with everything you need to manage your choir in one user-friendly app.**
+
+          ✅ Clean & simple user-friendly design
+          ✅  Unique member engagement tools
+          ✅  Developed specifically for choirs
+          ✅  Excellent phone and tablet functionality
         icon: 'fad fa-list-music'
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'
         home_page_header: true
+        ux_header: 'Simplify The Way You Manage Your Choir'
+        image:
+          - choir-concierge-devices.png
   -
     type: set
     attrs:
@@ -217,5 +226,5 @@ bard_field:
         button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1726216650
+updated_at: 1733641311
 ---

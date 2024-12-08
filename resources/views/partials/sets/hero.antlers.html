@@ -14,14 +14,25 @@
                         {{ /nav:breadcrumbs }}
                     </ul>
                 {{ /unless }}
-                <h1> {{ heading }} </h1>
+                {{ if ux_header }}
+                <h1 class="font-regular text-lg"> {{ heading }} </h1>
+                {{ else }}
+                    <h1> {{ heading }} </h1>
+                {{ /if }}
+                <div class="font-bold text-5xl"> {{ ux_header }}</div>
                 <div> {{ description }} </div>
                 <div>
                     {{ partial:button url="{{ button_url }}" text="{{ button_label }}" variant="secondary-inv"}}
                 </div>
             </div>
-            <div class="flex flex-col justify-center text-brand-purple-dark text-[18em] mix-blend-screen">
-                <i class="{{ icon }}"></i>
+            <div class="flex flex-col justify-center">
+                {{ if home_page_header }}
+                    {{ image }}
+                    <img src="{{ url }}" alt="{{ alt }}">
+                    {{ /image }}
+                {{ else }}
+                    <i class="text-brand-purple-dark text-[18em] mix-blend-screen {{ icon }}"></i>
+                {{ /if }}
             </div>
         </div>
     </div>
