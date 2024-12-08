@@ -14,6 +14,7 @@ bard_field:
         icon: 'fad fa-list-music'
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'
+        home_page_header: true
   -
     type: set
     attrs:
@@ -216,5 +217,5 @@ bard_field:
         button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1726203331
+updated_at: 1726216650
 ---

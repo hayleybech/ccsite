@@ -56,6 +56,11 @@ tabs:
                           field:
                             type: text
                             display: Icon
+                        -
+                          handle: home_page_header
+                          field:
+                            type: toggle
+                            display: 'Home Page Header'
                     pricing_table:
                       display: 'Pricing Table'
                       fields:
