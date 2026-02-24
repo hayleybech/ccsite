@@ -1,7 +1,7 @@
-<div class="bg-brand-purple-dark py-12">
+<div class="bg-brand-purple-dark py-12 px-8">
     <div class="container mx-auto">
-        <div class=" border-b-2 border-gray-300 pb-10">
-            <div class="flex justify-between items-center">
+        <div class="border-b-2 border-gray-300 pb-10">
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-y-2">
                 <div>
                     <p class="text-white font-bold text-2xl mb-4">
                        Try Choir Concierge today for FREE.
@@ -13,8 +13,8 @@
                 {{ partial:button url="https://choirconcierge.com/app/register" text="Start Free Trial" variant="primary"}}
             </div>
         </div>
-        <div class="flex py-10 justify-between">
-            <div class="flex flex-col gap-4 w-1/3">
+        <div class="flex flex-col lg:flex-row gap-y-6 py-10 justify-between">
+            <div class="flex flex-col gap-4 lg:w-1/3">
                 {{ asset url="/assets/logo.svg" }}
                     <a href="/"><img src="{{ url }}" alt="{{ alt }}" class="h-11"></a>
                 {{ /asset }}
@@ -29,10 +29,12 @@
             </div>
             {{ partial:footer-nav }}
         </div>
-        <div class="flex gap-4 text-gray-300 text-xs">
+        <div class="flex flex-col lg:flex-row gap-y-2 gap-x-4 text-gray-300 text-xs">
             © Choir Concierge 2024
-            <a class="hover:text-purple-400" href="">Privacy Policy</a>
-            <a class="hover:text-purple-400" href="">Terms of Service</a>
+            <div class="flex gap-4">
+                <a class="hover:text-purple-400" href="">Privacy Policy</a>
+                <a class="hover:text-purple-400" href="">Terms of Service</a>
+            </div>
         </div>
     </div>
 </div>
