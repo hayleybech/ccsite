@@ -178,13 +178,6 @@ bard_field:
             name: 'Jono Albertini'
             role: 'Musical Director, The Blenders'
             testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
-          -
-            id: m0kzlftq
-            logo:
-              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
-            name: 'Jono Albertini'
-            role: 'Musical Director, The Blenders'
-            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
   -
     type: set
     attrs:
