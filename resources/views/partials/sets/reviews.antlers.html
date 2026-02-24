@@ -1,4 +1,4 @@
-<section class="py-12 w-full">
+<section class="py-12 px-8 w-full">
     <div class="container mx-auto flex justify-center">
         <div class="text-center">
             <p class="font-bold mb-4">{{ kicker }}</p>
@@ -7,17 +7,17 @@
         </div>
     </div>
         <div class="container mx-auto justify-center">
-            <div class="text-left flex flex-row gap-x-8">
+            <div class="text-left flex flex-col lg:flex-row gap-8">
                 {{ reviews }}
                 <div class="flex flex-col xl:py-12 gap-4">
                     {{ logo }}
                     <img src="{{ url }}" alt="{{ alt }}" class="h-20 self-start">
                     {{ /logo }}
-                    <figure class="mt-10 flex flex-auto flex-col justify-between">
+                    <figure class="mt-4 flex flex-auto flex-col justify-between">
                         <blockquote class="text-lg text-gray-900">
                             <p>“{{ testimonial }}”</p>
                         </blockquote>
-                        <figcaption class="mt-10 flex items-center gap-x-6">
+                        <figcaption class="mt-4 flex items-center gap-x-6">
                             <div class="text-base">
                                 <div class="font-semibold text-gray-900">{{ name }}</div>
                                 <div class="mt-1 text-gray-500">{{ role }}</div>
