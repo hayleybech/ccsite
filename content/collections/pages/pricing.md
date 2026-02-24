@@ -79,7 +79,7 @@ bard_field:
             name: Large
             description: '51+ USERS'
             currency: USD
-            price: $279
+            price: $289
             frequency: /Year
             features:
               - '51+ active members'
@@ -93,5 +93,5 @@ bard_field:
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 parent: home
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1771931774
+updated_at: 1771934642
 ---

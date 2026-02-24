@@ -149,7 +149,7 @@ bard_field:
               - '51+ active members'
               - 'All plans include ALL features'
               - 'Plus unmetred storage'
-            price: $279
+            price: $289
             currency: USD
             frequency: /Year
         call_to_action: |-
@@ -218,5 +218,5 @@ bard_field:
         button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1771931426
+updated_at: 1771934623
 ---
