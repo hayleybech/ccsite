@@ -55,7 +55,7 @@ bard_field:
         type: features_lg_screenshot
         kicker: Features
         heading: 'Everything You Need To Manage Your Choir'
-        blurb: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+        blurb: "Simplify your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
         button_url: /features/
         button_label: 'Get More Details'
         features:
@@ -70,7 +70,7 @@ bard_field:
             name: 'Share Music & Files'
             icon: 'fad fa-list-music'
             descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: 'Music is the heart of your choir, and music files are the heart of choir management! We offer central storage of audio files and sheet music, as well as important features like learning status tracking, audition songs, pitch pipe, and more.'
           -
             id: m0kmooai
             name: 'Coordinate Events'
@@ -84,19 +84,22 @@ bard_field:
             name: 'Simplify Learning'
             descrip: 'Link to "Learning Tools"'
             icon: 'fas fa-chart-network'
-            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: |-
+              Learning new songs means bouncing back and forth between your sheet music, your piano and your learning tracks.
+
+              Your music is our top priority! Our rehearsal toolkit puts your sheet music and learning tracks into one compact view that works great on your phone. We even added a pitch pipe that always starts at the same key as your song. And if you’re a multi-tasker, you’ll love the fact that our audio player stays open and keeps playing your music while you browse the rest of the app.
           -
             id: m0kmopj6
             name: 'Improve Communication'
             icon: 'fas fa-comments-alt'
             descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: 'We have a range of features to manage your emails. With Mailout lists, you can send broadcasts to all of your singers  - or a select group of them. With Chat lists, your email threads are open for discussion for the entire group. And Public lists can be used as simple forwarders instead of official external email addresses. You have the option of composing emails directly in your mail client, or within the app using our Send Broadcast feature.'
           -
             id: m0kmoq3g
             name: 'Switch Between Choirs'
             descrip: 'You have one login for all of your choirs – and can jump between them quickly!'
             icon: 'fas fa-door-open'
-            description: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+            description: "We've made it even easier to sing with multiple choirs! You only need one username for all your music groups.We also have a central dashboard that shows you crucial information for ALL your choirs, like songs to learn and upcoming events. You can even choose a default choir to skip the central dashboard and log in directly to that choir!"
         image:
           - event-show.png
   -
@@ -174,17 +177,10 @@ bard_field:
           -
             id: m0ktql40
             logo:
-              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
-            name: 'Jono Albertini'
-            role: 'Musical Director, The Blenders'
-            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
-          -
-            id: m0kzlftq
-            logo:
-              - logo-the_blenders_-_gold_coast_barbershop_harmony_club_inc13062018062403.png
-            name: 'Jono Albertini'
-            role: 'Musical Director, The Blenders'
-            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
+              - plu-choral-union-logo.jpg
+            name: 'Raul Dominguez, DMA'
+            role: 'Associate Director of Choral Studies, Pacific Lutheran University'
+            testimonial: 'Choral Union loves Choir Concierge! Organizing our choir life has never been so simple, thanks to their user friendly interface. Its “practice feature” is strong and keeps our members engaged outside of rehearsal. To all choir directors, make your life easier with Choir Concierge, so you can get back to making music!'
   -
     type: set
     attrs:
@@ -222,5 +218,5 @@ bard_field:
         button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1733645513
+updated_at: 1771931426
 ---

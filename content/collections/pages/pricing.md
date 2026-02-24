@@ -10,8 +10,10 @@ bard_field:
       values:
         type: hero
         heading: Pricing
-        description: 'Integer viverra tincidunt justo, in dignissim sapien vulputate at. Praesent dictum, risus sit amet tristique fringilla, nulla lorem commodo justo, nec malesuada nibh elit id sem.'
         icon: 'fas fa-money-check-edit-alt'
+        button_label: 'Start Trial'
+        button_url: 'https://choirconcierge.com/app/register'
+        home_page_header: false
   -
     type: set
     attrs:
@@ -31,6 +33,8 @@ bard_field:
           Your support means the world to me. You're not just using a product; you're helping to bring a dream to life.
 
           I hope Choir Concierge exceeds your expectations and makes your choir management experience smoother and more enjoyable.
+        button_url: 'entry::fde8e44f-955c-4fb0-b6ff-3c81a6d9b50e'
+        button_label: 'Contact Us'
   -
     type: set
     attrs:
@@ -84,8 +88,10 @@ bard_field:
         call_to_action: |-
           **Ready for easier choir management?**
           Get Started with Choir Concierge today with a 30-day FREE trial.
+        button_label: 'Start Free Trial'
+        button_url: 'https://choirconcierge.com/app/register'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 parent: home
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1725255592
+updated_at: 1771931774
 ---
