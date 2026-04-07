@@ -1,0 +1,32 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              autocomplete: name
+              type: text
+              display: Name
+              listable: true
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: email
+              autocomplete: email
+              type: text
+              display: Email
+              validate:
+                - required
+                - email
+          -
+            handle: your_message
+            field:
+              type: textarea
+              display: 'Your Message'
+              validate:
+                - required

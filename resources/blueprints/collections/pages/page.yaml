@@ -28,6 +28,7 @@ tabs:
                   sets:
                     hero:
                       display: Hero
+                      icon: favorite-heart
                       fields:
                         -
                           handle: heading
@@ -76,6 +77,7 @@ tabs:
                             display: 'Home Page Header'
                     pricing_table:
                       display: 'Pricing Table'
+                      icon: money-cashier-price-tag
                       fields:
                         -
                           handle: heading
@@ -150,6 +152,7 @@ tabs:
                             width: 50
                     blurb:
                       display: Blurb
+                      icon: form-text-field
                       fields:
                         -
                           handle: heading
@@ -194,6 +197,7 @@ tabs:
                             width: 50
                     features_lg_screenshot:
                       display: 'Features Lg Screenshot'
+                      icon: favorite-star
                       fields:
                         -
                           handle: kicker
@@ -256,6 +260,7 @@ tabs:
                             width: 50
                     reviews:
                       display: Reviews
+                      icon: mail-chat-bubble-text
                       fields:
                         -
                           handle: kicker
@@ -303,6 +308,7 @@ tabs:
                                   display: Role
                     logo_cloud:
                       display: 'Logo Cloud'
+                      icon: media-image-picture-gallery
                       fields:
                         -
                           handle: heading
@@ -321,6 +327,53 @@ tabs:
                                   container: assets
                                   type: assets
                                   display: 'Logo Image'
+                    contact_section:
+                      display: 'Contact Section'
+                      icon: social-mail-send-email-message
+                      fields:
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: text
+                          field:
+                            type: textarea
+                            display: Text
+                        -
+                          handle: assigned_form
+                          field:
+                            max_items: 1
+                            type: form
+                            display: Form
+                            validate:
+                              - required
+                        -
+                          handle: aside_heading
+                          field:
+                            type: text
+                            display: 'Aside - Heading'
+                        -
+                          handle: aside_content
+                          field:
+                            type: textarea
+                            display: 'Aside - Content'
+                        -
+                          handle: aside_button_label
+                          field:
+                            type: text
+                            display: 'Aside - Button Label'
+                        -
+                          handle: aside_button_url
+                          field:
+                            type: text
+                            display: 'Aside - Button URL'
+                            validate:
+                              - url
+                        -
+                          import: button
+                          prefix: aside_
           -
             handle: author
             field:

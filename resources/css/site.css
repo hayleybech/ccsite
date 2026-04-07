@@ -18,4 +18,15 @@
     p{
         @apply mb-3 text-base;
     }
+
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"]{
+        @apply border-2 border-gray-300 rounded-md px-2.5 py-1 text-sm;
+    }
+
+    textarea {
+        @apply border-2 border-gray-300 rounded-md px-2.5 py-1 w-full text-sm;
+    }
 }

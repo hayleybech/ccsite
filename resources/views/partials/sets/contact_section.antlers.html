@@ -1,0 +1,76 @@
+<div class="text mt-4 px-4 sm:px-6 lg:px-8 pt-6 lg:pt-10 pb-10 lg:pb-20 w-full">
+    <div class="container mx-auto">
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+
+            <!-- Main Content -->
+            <div class="">
+                <h2 class="text-purple-800 mb-4">{{ heading }}</h2>
+
+                {{  if text }}
+                <div class="prose">
+                    {{ text|markdown }}
+                </div>
+                {{ /if }}
+
+                {{ form:create in="{ assigned_form:handle }" }}
+
+                {{ if success }}
+                <div class="bg-green-300 text-white py-2 px-4">
+                    {{ success }}
+                </div>
+                {{ else }}
+
+                {{ if errors }}
+                <div class="bg-red-300 text-white py-2 px-4">
+                    {{ errors }}
+                    {{ value }}<br>
+                    {{ /errors }}
+                </div>
+                {{ /if }}
+
+                {{ fields }}
+                <div class="py-2">
+                    <label>{{ display }}</label>
+                    <div class="py-1">{{ field }}</div>
+                    {{ if error }}
+                    <p class="text-gray-500">{{ error }}</p>
+                    {{ /if }}
+                </div>
+                {{ /fields }}
+
+                <input type="text" class="hidden" name="{{ honeypot ?? 'honeypot' }}">
+
+                <button type="submit" class="
+            font-bold text-sm text-center px-10 py-3 rounded-full uppercase shadow-md inline-block
+            text-white bg-purple-800 hover:bg-purple-900">Submit</button>
+                {{ /if }}
+
+                {{ /form:create }}
+            </div>
+
+            <!-- Aside -->
+            <div>
+                <h2 class="text-purple-800 mb-4">{{ aside_heading }}</h2>
+                <div class="prose mb-4">
+                    {{ aside_content|markdown }}
+                </div>
+
+
+
+                {{ fields }}
+                    {{ field }}
+                {{ /fields }}
+
+                {{ aside_button }}
+                {{ if label }}
+                {{ partial:button url="{{ url }}" text="{{ label }}" variant="{{ variant }}" external="{{ external_link }}" }}
+                {{ /if }}
+                {{ /aside_button }}
+            </div>
+        </div>
+    </div>
+
+
+</div>

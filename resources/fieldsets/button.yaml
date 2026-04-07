@@ -1,0 +1,38 @@
+title: Button
+fields:
+  -
+    handle: button
+    field:
+      type: group
+      display: Button
+      fields:
+        -
+          handle: label
+          field:
+            type: text
+            display: 'Button Label'
+            validate:
+              - required
+        -
+          handle: url
+          field:
+            type: text
+            display: 'Button URL'
+            validate:
+              - url
+            width: 75
+        -
+          handle: external_link
+          field:
+            type: toggle
+            display: 'External Link'
+            width: 25
+        -
+          handle: variant
+          field:
+            options:
+              primary: Primary
+              secondary: Secondary
+              secondary-inv: 'Secondary Inverse'
+            type: radio
+            display: 'Button Variant'
