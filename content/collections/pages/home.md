@@ -71,54 +71,31 @@ bard_field:
     attrs:
       id: m0kqbr1f
       values:
-        type: features_lg_screenshot
-        heading: Features
-        button_url: /features/
-        button_label: 'Get More Details'
+        type: home_features
+        heading: 'A closer look at what you can do'
+        intro: 'From thoughtful tools for learning music to clever ways to keep your choir organised, Choir Concierge is built around the way choirs really work.'
         features:
           -
-            id: m0kmomcc
-            name: 'Manage Memberships'
-            icon: 'fas fa-users'
-            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: "Store and track key membership details, including membership fees, voice parts, and customised user roles. You'll also be able to automate your onboarding workflow to streamline the process of bringing on new members, including creating checklists, sending notifications, and scheduling follow-ups."
+            id: music-learning
+            heading: 'Music that works the way you do'
+            description: 'Sheet music, learning tracks and pitch pipe, all together in one rehearsal view. Your music keeps playing while you explore the rest of the app, so you can focus on learning.'
+            link_label: 'Explore music & learning →'
+            link_url: /features/
           -
-            id: m0kmoney
-            name: 'Share Music & Files'
-            icon: 'fad fa-list-music'
-            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: 'Music is the heart of your choir, and music files are the heart of choir management! We offer central storage of audio files and sheet music, as well as important features like learning status tracking, audition songs, pitch pipe, and more.'
+            id: singers-membership
+            heading: "Know where everyone's up to"
+            description: 'Keep track of learning progress, organise audition songs and give singers easy access to the resources they need to prepare.'
+            link_label: 'Explore singer & membership tools →'
+            link_url: /member-management/
           -
-            id: m0kmooai
-            name: 'Coordinate Events'
-            icon: 'fas fa-calendar-alt'
-            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: |-
-              Plan and track your choir's events with ease. View upcoming events in calendar or list views of and sync events to your calendar app. You can also track RSVPs and attendance, generate attendance reports, and view event venue locations on Google Maps.
-              Event organisers can also add set lists, schedules, and even assign specific riser positions to singers, helping to streamline event logistics and preparation.
-          -
-            id: m0kmoozu
-            name: 'Simplify Learning'
-            descrip: 'Link to "Learning Tools"'
-            icon: 'fas fa-chart-network'
-            description: |-
-              Learning new songs means bouncing back and forth between your sheet music, your piano and your learning tracks.
-
-              Your music is our top priority! Our rehearsal toolkit puts your sheet music and learning tracks into one compact view that works great on your phone. We even added a pitch pipe that always starts at the same key as your song. And if you’re a multi-tasker, you’ll love the fact that our audio player stays open and keeps playing your music while you browse the rest of the app.
-          -
-            id: m0kmopj6
-            name: 'Improve Communication'
-            icon: 'fas fa-comments-alt'
-            descrip: "Simply your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
-            description: 'We have a range of features to manage your emails. With Mailout lists, you can send broadcasts to all of your singers  - or a select group of them. With Chat lists, your email threads are open for discussion for the entire group. And Public lists can be used as simple forwarders instead of official external email addresses. You have the option of composing emails directly in your mail client, or within the app using our Send Broadcast feature.'
-          -
-            id: m0kmoq3g
-            name: 'Switch Between Choirs'
-            descrip: 'You have one login for all of your choirs – and can jump between them quickly!'
-            icon: 'fas fa-door-open'
-            description: "We've made it even easier to sing with multiple choirs! You only need one username for all your music groups.We also have a central dashboard that shows you crucial information for ALL your choirs, like songs to learn and upcoming events. You can even choose a default choir to skip the central dashboard and log in directly to that choir!"
-        image:
-          - event-show.png
+            id: events-performances
+            heading: 'Ready for performance day'
+            description: 'Bring set lists, schedules, attendance and even riser positions together, so the whole choir is better prepared for what’s ahead.'
+            link_label: 'Explore events & performances →'
+            link_url: /features/
+        cta_heading: 'Want to see everything Choir Concierge can do?'
+        cta_label: 'Explore all features →'
+        cta_url: /features/
   -
     type: set
     attrs:
