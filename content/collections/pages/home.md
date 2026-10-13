@@ -79,18 +79,21 @@ bard_field:
             id: music-learning
             heading: 'Music that works the way you do'
             description: 'Sheet music, learning tracks and pitch pipe, all together in one rehearsal view. Your music keeps playing while you explore the rest of the app, so you can focus on learning.'
+            image: cc-song.png
             link_label: 'Explore music & learning →'
             link_url: /features/
           -
             id: singers-membership
             heading: "Know where everyone's up to"
             description: 'Keep track of learning progress, organise audition songs and give singers easy access to the resources they need to prepare.'
+            image: cc-singer-show.png
             link_label: 'Explore singer & membership tools →'
             link_url: /member-management/
           -
             id: events-performances
             heading: 'Ready for performance day'
             description: 'Bring set lists, schedules, attendance and even riser positions together, so the whole choir is better prepared for what’s ahead.'
+            image: cc-att-report.png
             link_label: 'Explore events & performances →'
             link_url: /features/
         cta_heading: 'Want to see everything Choir Concierge can do?'
