@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ? (title + " | " + site:name) : site:name }}</title>
+        <title>{{ seo_title ? seo_title : (title ? (title + " | " + site:name) : site:name) }}</title>
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">

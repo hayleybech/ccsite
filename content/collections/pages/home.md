@@ -1,7 +1,8 @@
 ---
 id: home
 blueprint: pages
-title: 'Choir Management Software'
+title: 'Home'
+seo_title: 'Choir Concierge: Management app for your choir'
 bard_field:
   -
     type: set
@@ -10,9 +11,7 @@ bard_field:
       values:
         type: hero
         heading: 'Become the choir you want to be.'
-        eyebrow: 'CHOIR MANAGEMENT SOFTWARE THAT PUTS MUSIC FIRST'
-        subheading: 'Better-prepared singers. Smoother rehearsals. More time making music together.'
-        description: 'Choir Concierge is choir management software designed to bring your music, members, events and communication together — helping choir leaders spend less time on admin and singers keep learning between rehearsals.'
+        description: 'Choir Concierge is the app for _your_ choir. Better-prepared singers. Smoother rehearsals. More time making music together.'
         icon: 'fad fa-list-music'
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'
@@ -45,12 +44,35 @@ bard_field:
   -
     type: set
     attrs:
+      id: lyb53q1c
+      values:
+        type: benefits
+        heading: 'Everything your choir needs to thrive'
+        intro: "The best choir experiences happen when everyone's pulling together. Choir Concierge makes the behind-the-scenes work easier, helps singers keep growing, and brings a little more connection to everything you do together."
+        benefits:
+          -
+            id: less-admin
+            heading: 'Spend less time on admin'
+            description: 'Keep member details, roles, fees and onboarding organised in one place. Spend less time chasing information and more time supporting your singers and shaping the choir you want to be.'
+          -
+            id: learning
+            heading: 'Make learning easier'
+            description: 'Bring sheet music, learning tracks and a handy pitch pipe together in one simple rehearsal view. Help singers practise with confidence and arrive ready to make the most of every rehearsal, so you’re all moving towards the same goal.'
+          -
+            id: rehearsals-performances
+            heading: 'Keep rehearsals and performances on track'
+            description: 'Bring calendars, attendance, set lists, schedules and riser positions together in one place. Give everyone a clearer picture of what’s coming up, what they’re working towards and how it all comes together.'
+          -
+            id: connection
+            heading: 'Bring everyone along'
+            description: 'Keep your singers in the loop with updates for the whole choir or just the people who need them. Make it easier for everyone to stay connected to what’s happening, share in the excitement of what’s ahead and feel part of the bigger picture.'
+  -
+    type: set
+    attrs:
       id: m0kqbr1f
       values:
         type: features_lg_screenshot
-        kicker: Features
-        heading: 'Everything You Need To Manage Your Choir'
-        blurb: "Simplify your day-to-day choir operations so you can spend more time singing. You'll find everything you need to save time and headaches on your choir management in our user-friendly choir management app."
+        heading: Features
         button_url: /features/
         button_label: 'Get More Details'
         features:
