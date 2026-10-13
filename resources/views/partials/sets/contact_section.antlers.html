@@ -40,7 +40,8 @@
                 </div>
                 {{ /fields }}
 
-                <input type="text" class="hidden" name="{{ honeypot ?? 'honeypot' }}">
+                <input type="text" class="hidden" name="{{ honeypot ?? 'honeypot' }}" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <input type="hidden" name="_contact_started_at" value="{{ now format="U" }}">
 
                 <button type="submit" class="
             font-bold text-sm text-center px-10 py-3 rounded-full uppercase shadow-md inline-block

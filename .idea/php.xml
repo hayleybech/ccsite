@@ -157,6 +157,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/mailgun-mailer" />
       <path value="$PROJECT_DIR$/vendor/laravel/nightwatch" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/vendor/php-debugbar/php-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/stillat/blade-parser" />
+      <path value="$PROJECT_DIR$/vendor/spatie/error-solutions" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
