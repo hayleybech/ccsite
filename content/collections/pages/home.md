@@ -1,7 +1,7 @@
 ---
 id: home
 blueprint: pages
-title: Home
+title: 'Choir Management Software'
 bard_field:
   -
     type: set
@@ -9,19 +9,14 @@ bard_field:
       id: lybelcnk
       values:
         type: hero
-        heading: 'The Latest in Choir Management Software'
-        description: |-
-          **Save time, money, and stress with everything you need to manage your choir in one user-friendly app.**
-
-          ✅ Clean & simple user-friendly design
-          ✅  Unique member engagement tools
-          ✅  Developed specifically for choirs
-          ✅  Excellent phone and tablet functionality
+        heading: 'Become the choir you want to be.'
+        eyebrow: 'CHOIR MANAGEMENT SOFTWARE THAT PUTS MUSIC FIRST'
+        subheading: 'Better-prepared singers. Smoother rehearsals. More time making music together.'
+        description: 'Choir Concierge is choir management software designed to bring your music, members, events and communication together — helping choir leaders spend less time on admin and singers keep learning between rehearsals.'
         icon: 'fad fa-list-music'
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'
         home_page_header: true
-        ux_header: 'Simplify The Way You Manage Your Choir'
         image:
           - choir-concierge-devices.png
   -

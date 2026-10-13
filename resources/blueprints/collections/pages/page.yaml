@@ -36,6 +36,16 @@ tabs:
                             type: text
                             display: Heading
                         -
+                          handle: eyebrow
+                          field:
+                            type: text
+                            display: Eyebrow
+                        -
+                          handle: subheading
+                          field:
+                            type: text
+                            display: Subheading
+                        -
                           handle: ux_header
                           field:
                             type: text
