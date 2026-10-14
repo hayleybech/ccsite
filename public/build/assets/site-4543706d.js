@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-image-modal-open]").forEach(a=>{var t;const e=document.getElementById(a.dataset.imageModalOpen);e&&(a.addEventListener("click",()=>e.showModal()),(t=e.querySelector("[data-image-modal-close]"))==null||t.addEventListener("click",()=>e.close()),e.addEventListener("click",d=>{d.target===e&&e.close()}))});

@@ -1,10 +1,11 @@
 <a
     href="{{ url }}"
     class="
-        font-semibold text-sm text-center px-10 py-3 rounded-md shadow-md inline-block
+        font-semibold text-sm text-center px-4 py-2 rounded-md shadow-md inline-block
         {{ [
             'text-white bg-purple-500 hover:bg-purple-600' => variant==='primary',
-            'text-purple-500 hover:text-purple-600 bg-white border border-gray-300 hover:border-gray-400' => variant==='secondary-inv' || variant==='secondary',
+            'text-gray-900 hover:text-gray-700 bg-white border border-gray-300 hover:border-gray-400' => variant==='secondary',
+            'text-white hover:text-gray-100 border border-white hover:bg-white/10' => variant==='secondary-inv',
         ] | classes}}
      "
     {{ if external }}
