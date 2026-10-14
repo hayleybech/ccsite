@@ -1,8 +1,41 @@
-<header id="{{ heading | slugify }}" class="text-white bg-gradient-to-t from-[#361a55] to-purple-800">
-    <div class="container mx-auto">
-        <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 justify-between px-8 lg:px-0 py-16 lg:py-20">
-            <div class="flex flex-col gap-5 justify-center lg:w-1/2">
-                {{ unless home_page_header }}
+<header id="{{ heading | slugify }}" class="{{ if home_page_header }}bg-purple-50 text-gray-900{{ else }}text-white bg-gradient-to-t from-[#361a55] to-purple-800{{ /if }}">
+    {{ if home_page_header }}
+        <div class="mx-auto px-6 pt-12 text-center sm:pt-16">
+            <div class="mx-auto max-w-5xl">
+                <p class="mb-3 flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-[0.12em] text-purple-500">
+                    <i class="fas fa-sparkles" aria-hidden="true"></i>
+                    {{ eyebrow }}
+                </p>
+                <h1 class="font-heading text-4xl font-extrabold leading-[0.98] tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+                    {{ heading }}<br>
+                    <span class="relative inline-block pb-3 text-purple-600 top-1.5">
+                        {{ heading_emphasis }}
+                        <svg class="absolute bottom-0 left-0 h-3 w-full text-blue-500" viewBox="0 0 220 12" fill="none" aria-hidden="true">
+                            <path d="M3 8C38 4 67 9 105 6C145 3 176 9 217 5" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                        </svg>
+                    </span><br>
+                    {{ heading_suffix }}
+                </h1>
+                <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-600">{{ intro | nl2br }}</p>
+                <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                    {{ partial:button url="{{ button_url }}" text="{{ button_label }}" variant="primary" arrow="true" size="lg" }}
+                    {{ partial:button url="{{ secondary_button_url }}" text="{{ secondary_button_label }}" variant="secondary" size="lg" }}
+                </div>
+                <p class="mt-6 text-xs text-gray-400">
+                    <i class="fas fa-heart mr-1" aria-hidden="true"></i>
+                    {{ tagline }}
+                </p>
+            </div>
+            {{ image }}
+                <div class="mx-auto mt-12 -mb-16 max-w-5xl">
+                    <img src="{{ url }}" alt="{{ alt }}" class="lg:aspect-[18/7] w-full rounded-3xl object-cover object-center shadow-xl">
+                </div>
+            {{ /image }}
+        </div>
+    {{ else }}
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-8 px-8 py-16 lg:flex-row lg:justify-between lg:gap-12 lg:px-0 lg:py-20">
+                <div class="flex flex-col justify-center gap-5 lg:w-1/2">
                     <ul class="breadcrumbs flex flex-row gap-2 text-sm">
                         <li>
                             <a href="/">Home</a>
@@ -13,29 +46,23 @@
                             </li>
                         {{ /nav:breadcrumbs }}
                     </ul>
-                {{ /unless }}
-                {{ if eyebrow }}
-                    <p class="font-bold text-sm tracking-[0.12em]">{{ eyebrow }}</p>
-                {{ /if }}
-                <h1 class="font-bold text-4xl lg:text-6xl">{{ heading }}</h1>
-                {{ if subheading }}
-                    <p class="text-xl lg:text-2xl">{{ subheading }}</p>
-                {{ /if }}
-                <div>{{ description }}</div>
-                <div>
-                    {{ partial:button url="{{ button_url }}" text="{{ button_label }}" variant="primary"}}
+                    {{ if eyebrow }}
+                        <p class="font-bold text-sm tracking-[0.12em]">{{ eyebrow }}</p>
+                    {{ /if }}
+                    <h1 class="font-bold text-4xl lg:text-6xl">{{ heading }}</h1>
+                    {{ if subheading }}
+                        <p class="text-xl lg:text-2xl">{{ subheading }}</p>
+                    {{ /if }}
+                    <div>{{ description }}</div>
+                    <div>
+                        {{ partial:button url="{{ button_url }}" text="{{ button_label }}" variant="primary"}}
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center">
+                    <i class="text-purple-500 text-[18em] mix-blend-screen {{ icon }}"></i>
                 </div>
             </div>
-            <div class="flex flex-col justify-center">
-                {{ if home_page_header }}
-                    {{ image }}
-                    <img src="{{ url }}" alt="{{ alt }}">
-                    {{ /image }}
-                {{ else }}
-                    <i class="text-purple-500 text-[18em] mix-blend-screen {{ icon }}"></i>
-                {{ /if }}
-            </div>
         </div>
-    </div>
+    {{ /if }}
 </header>
 

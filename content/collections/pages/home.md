@@ -10,14 +10,21 @@ bard_field:
       id: lybelcnk
       values:
         type: hero
-        heading: 'Become the choir you want to be.'
-        description: 'Choir Concierge is the app for _your_ choir. Better-prepared singers. Smoother rehearsals. More time making music together.'
-        icon: 'fad fa-list-music'
-        button_label: 'Start Free Trial'
+        heading: 'Where your choir'
+        heading_emphasis: 'lives'
+        heading_suffix: 'between rehearsals'
+        eyebrow: 'A happy home for your choir'
+        intro: |-
+          Bring your music, your people and all the little details together.
+          Less organising. More of the singing you love.
+        tagline: 'for the people who bring people together'
+        button_label: 'Start a free trial'
         button_url: 'https://choirconcierge.com/app/register'
+        secondary_button_label: 'Explore the features'
+        secondary_button_url: /features/
         home_page_header: true
         image:
-          - choir-concierge-devices.png
+          - choir-rehearsal-lgg4k42s.jpg
   -
     type: set
     attrs:

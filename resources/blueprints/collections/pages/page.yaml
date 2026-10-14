@@ -36,6 +36,18 @@ tabs:
                             type: text
                             display: Heading
                         -
+                          handle: heading_emphasis
+                          field:
+                            type: text
+                            display: 'Heading Emphasis'
+                            width: 50
+                        -
+                          handle: heading_suffix
+                          field:
+                            type: text
+                            display: 'Heading Suffix'
+                            width: 50
+                        -
                           handle: eyebrow
                           field:
                             type: text
@@ -56,6 +68,11 @@ tabs:
                             type: markdown
                             display: Description
                         -
+                          handle: intro
+                          field:
+                            type: textarea
+                            display: Intro
+                        -
                           handle: button_label
                           field:
                             type: text
@@ -67,6 +84,23 @@ tabs:
                             type: link
                             display: 'Button URL'
                             width: 50
+                        -
+                          handle: secondary_button_label
+                          field:
+                            type: text
+                            display: 'Secondary Button Label'
+                            width: 50
+                        -
+                          handle: secondary_button_url
+                          field:
+                            type: link
+                            display: 'Secondary Button URL'
+                            width: 50
+                        -
+                          handle: tagline
+                          field:
+                            type: text
+                            display: Tagline
                         -
                           handle: icon
                           field:
