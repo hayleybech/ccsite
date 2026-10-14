@@ -41,7 +41,7 @@ bard_field:
       id: lyvjx4xo
       values:
         type: pricing_table
-        heading: 'A plan for every harmony'
+        heading: 'A plan for every choir'
         blurb: 'From your first five voices to a full chorus. Every plan includes all features and unmetered storage.'
         products:
           -

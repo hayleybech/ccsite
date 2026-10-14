@@ -1,11 +1,10 @@
 <a
     href="{{ url }}"
     class="
-        font-normal text-sm text-center px-10 py-3 rounded shadow-md inline-block
+        font-semibold text-sm text-center px-10 py-3 rounded-md shadow-md inline-block
         {{ [
             'text-white bg-purple-500 hover:bg-purple-600' => variant==='primary',
-            'text-purple-500 hover:text-purple-600 bg-white border border-gray-300 hover:border-gray-400' => variant==='secondary-inv',
-            'text-purple-500 hover:text-purple-600 bg-white border border-gray-300 hover:border-gray-400' => variant==='secondary',
+            'text-purple-500 hover:text-purple-600 bg-white border border-gray-300 hover:border-gray-400' => variant==='secondary-inv' || variant==='secondary',
         ] | classes}}
      "
     {{ if external }}
@@ -13,5 +12,5 @@
         rel="noopener noreferrer"
     {{ /if }}
 >
-    {{ text }}
+    {{ text }}{{ if arrow }} <i class="far fa-long-arrow-right ml-2" aria-hidden="true"></i>{{ /if }}
 </a>

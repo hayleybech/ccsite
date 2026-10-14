@@ -80,24 +80,24 @@ bard_field:
             heading: 'Music that works the way you do'
             description: 'Sheet music, learning tracks and pitch pipe, all together in one rehearsal view. Your music keeps playing while you explore the rest of the app, so you can focus on learning.'
             image: cc-song.png
-            link_label: 'Explore music & learning →'
+            link_label: 'Explore music & learning'
             link_url: /features/
           -
             id: singers-membership
             heading: "Know where everyone's up to"
             description: 'Keep track of learning progress, organise audition songs and give singers easy access to the resources they need to prepare.'
             image: cc-singer-show.png
-            link_label: 'Explore singer & membership tools →'
+            link_label: 'Explore singer & membership tools'
             link_url: /member-management/
           -
             id: events-performances
             heading: 'Ready for performance day'
             description: 'Bring set lists, schedules, attendance and even riser positions together, so the whole choir is better prepared for what’s ahead.'
             image: cc-att-report.png
-            link_label: 'Explore events & performances →'
+            link_label: 'Explore events & performances'
             link_url: /features/
         cta_heading: 'Want to see everything Choir Concierge can do?'
-        cta_label: 'Explore all features →'
+        cta_label: 'Explore all features'
         cta_url: /features/
   -
     type: set
@@ -129,7 +129,7 @@ bard_field:
       id: m0kkvton
       values:
         type: pricing_table
-        heading: 'A plan for every harmony'
+        heading: 'A plan for every choir'
         blurb: 'From your first five voices to a full chorus. Every plan includes all features and unmetered storage.'
         products:
           -
@@ -185,8 +185,12 @@ bard_field:
     attrs:
       id: m0rr706r
       values:
-        type: blurb
+        type: story
         heading: 'Our Story'
+        eyebrow: 'Built with a whole lot of heart'
+        intro: |-
+          A passion project.
+          A powerful little helping hand.
         description: |-
           Choir Concierge is a passion project started by Australian software developer and music lover Hayley Bech. As a choir director and music team member for multiple choirs, Hayley has had the opportunity to work with the majority of popular choir management apps on the market, learning what is important for choir management and what could be improved upon.
 
@@ -195,8 +199,7 @@ bard_field:
           After 7+ years of development, we are proud to be able to share with you our software. We truly believe it is a cutting-edge solution that won’t just help you manage your choir, but will also be easy to use while doing it.
         button_url: /about-us/
         image: 436748605_261393923666433_7699764950218552369_n.jpg
-        image_p: left
-        button_label: 'Learn More'
+        button_label: 'Read the story behind the music'
   -
     type: set
     attrs:
