@@ -4,9 +4,12 @@
             {{ asset url="/assets/logo-dark.svg" }}
                 <a href="/"><img src="{{ url }}" alt="{{ alt }}" class="h-11 pr-4"></a>
             {{ /asset }}
-<!--            {{ nav:main_nav }}-->
-<!--              <a href="{{ url }}" class="p-2 block hover:text-purple-500 uppercase font-bold text-sm text-gray-800 text-center">{{ title }}</a>-->
-<!--            {{ /nav:main_nav }}-->
+            <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+                <a href="/#features" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Features</a>
+                <a href="/#pricing" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Pricing</a>
+                <a href="/#our-story" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Our story</a>
+                <a href="/contact-us" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Contact</a>
+            </div>
         </div>
         <div class="flex items-center space-x-4">
             {{ partial:button url="https://choirconcierge.com/app/login" text="Login" variant="secondary"}}
