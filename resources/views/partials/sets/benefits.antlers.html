@@ -1,13 +1,14 @@
 <section id="{{ heading | slugify }}" class="py-16 px-8">
     <div class="container mx-auto max-w-7xl">
         <div class="mx-auto max-w-3xl text-center">
-            <h2 class="text-purple-500">{{ heading }}</h2>
-            <p class="mt-4">{{ intro }}</p>
+            <div class="mb-3 text-sm font-bold uppercase tracking-[0.12em] text-purple-500">The good stuff, without the hassle</div>
+            <h2 class="mb-4 text-gray-900">{{ heading }}</h2>
+            <p class="mb-12 text-gray-500">{{ intro }}</p>
         </div>
         <dl class="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:max-w-none lg:grid-cols-4">
             {{ benefits }}
                 <div>
-                    <dt class="text-lg font-semibold text-purple-500">{{ heading }}</dt>
+                    <dt class="font-black text-lg text-gray-900">{{ heading }}</dt>
                     <dd class="mt-2">{{ description }}</dd>
                 </div>
             {{ /benefits }}
