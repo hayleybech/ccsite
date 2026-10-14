@@ -9,10 +9,9 @@ export default {
     ],
 
     theme: {
-        fontFamily: {'sans': 'Inter, Arial, Helvetica, sans-serif'},
+        fontFamily: {'sans': 'Manrope, Arial, Helvetica, sans-serif'},
         extend: {
             colors: {
-                'brand-purple-dark': '#200142',
                 'brand-off-white': '#f2f1f3',
             }
         },

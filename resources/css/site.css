@@ -5,7 +5,7 @@
 /* This is all you. */
 
 .feature-tab[aria-selected="true"] {
-    @apply text-purple-800;
+    @apply text-purple-500;
 }
 
 .feature-tab-progress {

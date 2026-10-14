@@ -6,7 +6,7 @@
 
             <!-- Main Content -->
             <div class="">
-                <h2 class="text-purple-800 mb-4">{{ heading }}</h2>
+                <h2 class="text-purple-500 mb-4">{{ heading }}</h2>
 
                 {{  if text }}
                 <div class="prose">
@@ -44,8 +44,8 @@
                 <input type="hidden" name="_contact_started_at" value="{{ now format="U" }}">
 
                 <button type="submit" class="
-            font-bold text-sm text-center px-10 py-3 rounded-full uppercase shadow-md inline-block
-            text-white bg-purple-800 hover:bg-purple-900">Submit</button>
+            font-normal text-sm text-center px-10 py-3 rounded shadow-md inline-block
+            text-white bg-purple-500 hover:bg-purple-600">Submit</button>
                 {{ /if }}
 
                 {{ /form:create }}
@@ -53,7 +53,7 @@
 
             <!-- Aside -->
             <div>
-                <h2 class="text-purple-800 mb-4">{{ aside_heading }}</h2>
+                <h2 class="text-purple-500 mb-4">{{ aside_heading }}</h2>
                 <div class="prose mb-4">
                     {{ aside_content|markdown }}
                 </div>

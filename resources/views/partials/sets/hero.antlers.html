@@ -23,7 +23,7 @@
                 {{ /if }}
                 <div>{{ description }}</div>
                 <div>
-                    {{ partial:button url="{{ button_url }}" text="{{ button_label }}" variant="secondary-inv"}}
+                    {{ partial:button url="{{ button_url }}" text="{{ button_label }}" variant="primary"}}
                 </div>
             </div>
             <div class="flex flex-col justify-center">
@@ -32,7 +32,7 @@
                     <img src="{{ url }}" alt="{{ alt }}">
                     {{ /image }}
                 {{ else }}
-                    <i class="text-brand-purple-dark text-[18em] mix-blend-screen {{ icon }}"></i>
+                    <i class="text-purple-500 text-[18em] mix-blend-screen {{ icon }}"></i>
                 {{ /if }}
             </div>
         </div>
