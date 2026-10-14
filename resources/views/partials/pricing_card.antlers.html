@@ -1,18 +1,18 @@
-<div class="bg-white mb-2 flex flex-col rounded-lg p-8 border-2 border-purple-500 drop-shadow-lg group items-left">
-    <h3 class="font-extrabold mb-2 text-xl">{{ name }}</h3>
-    <div class="uppercase text-sm font-bold mb-8">{{ description }}</div>
+<div class="bg-white mb-2 flex flex-col rounded-md px-6 py-8 border drop-shadow-sm group items-left {{ [ 'border-gray-300' => name !== 'Medium', 'border-purple-500' => name === 'Medium' ] | classes }}">
+    <h3 class="font-extrabold mb-2 text-2xl">{{ name }}</h3>
+    <div class="text-xs text-gray-500 mb-8">{{ description }}</div>
     <div class="flex flex-row gap-2 justify-items-center">
-        <div class="text-4xl font-extrabold text-purple-500 mb-8">{{ price }}</div>
+        <div class="text-4xl font-extrabold text-gray-900 mb-8">{{ price }}</div>
         <div class="flex flex-col">
-            {{ if currency }}  <div class="text-sm">{{ currency }}</div> {{ /if }}
-            {{ if frequency }}<div class="text-sm">{{ frequency }}</div> {{ /if }}
+            {{ if currency }}  <div class="text-sm text-gray-500">{{ currency }}</div> {{ /if }}
+            {{ if frequency }}<div class="text-sm text-gray-500">{{ frequency }}</div> {{ /if }}
         </div>
     </div>
     <div>
         <ul class="list-inside text-xs text-gray-600 space-y-4">
             {{ features }}
             <li>
-                <i class="fa fa-check text-purple-500 mr-2"></i>
+                <i class="fal fa-check text-purple-500 mr-2"></i>
                 {{ value }}
             </li>
             {{ /features }}

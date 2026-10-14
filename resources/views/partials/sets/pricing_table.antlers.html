@@ -1,9 +1,10 @@
-<section id="pricing" class="py-12 px-8 w-full">
+<section id="pricing" class="bg-purple-50 py-12 px-8 w-full">
     <div class="container mx-auto flex justify-center">
         <div class="text-center">
             <div>
-                <h2 class="text-purple-500 mb-4">{{ heading }}</h2>
-                <div class="mb-12">{{ blurb }}</div>
+                <div class="mb-3 text-sm font-bold uppercase tracking-widest text-purple-500">Big on features. Kind on your budget.</div>
+                <h2 class="mb-4 text-gray-900">{{ heading }}</h2>
+                <div class="mb-12 text-gray-500">{{ blurb }}</div>
             </div>
             <div class="text-left flex flex-col md:flex-row gap-y-4 gap-x-8">
                 {{ products }}
@@ -11,7 +12,7 @@
                 {{ /products }}
             </div>
             <div class="flex flex-col gap-4">
-                <div class="mt-12 [&>p]:text-lg">
+                <div class="mt-12 [&>p]:text-lg [&>p+p]:text-sm [&>p+p]:text-gray-500">
                     {{ call_to_action }}
                 </div>
                 <div>

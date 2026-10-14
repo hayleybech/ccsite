@@ -41,12 +41,13 @@ bard_field:
       id: lyvjx4xo
       values:
         type: pricing_table
-        heading: 'One Price, Every Feature'
+        heading: 'A plan for every harmony'
+        blurb: 'From your first five voices to a full chorus. Every plan includes all features and unmetered storage.'
         products:
           -
             id: lyvjyv2c
             name: Quartet
-            description: 'UP TO 5 USERS'
+            description: 'Up to 5 users'
             price: FREE
             features:
               - 'Up to 5 active members'
@@ -55,7 +56,7 @@ bard_field:
           -
             id: lyvk00z8
             name: Small
-            description: '6 - 25 USERS'
+            description: '6 - 25 users'
             currency: USD
             price: $119
             frequency: /Year
@@ -66,7 +67,7 @@ bard_field:
           -
             id: lyvk0wf0
             name: Medium
-            description: '25 - 50 USERS'
+            description: '25 - 50 users'
             currency: USD
             price: $199
             frequency: /Year
@@ -77,7 +78,7 @@ bard_field:
           -
             id: lyvk1rxo
             name: Large
-            description: '51+ USERS'
+            description: '51+ users'
             currency: USD
             price: $289
             frequency: /Year
@@ -87,6 +88,7 @@ bard_field:
               - 'Plus unmetred storage'
         call_to_action: |-
           **Ready for easier choir management?**
+
           Get Started with Choir Concierge today with a 30-day FREE trial.
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'

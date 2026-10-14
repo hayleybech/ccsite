@@ -105,7 +105,8 @@ bard_field:
       id: m0kkvton
       values:
         type: pricing_table
-        heading: 'One Price, Every Feature'
+        heading: 'A plan for every harmony'
+        blurb: 'From your first five voices to a full chorus. Every plan includes all features and unmetered storage.'
         products:
           -
             id: lx5qd3kp
@@ -141,7 +142,7 @@ bard_field:
           -
             id: lyb4dryj
             name: Large
-            description: '51+ Users'
+            description: '51+ users'
             features:
               - '51+ active members'
               - 'All plans include ALL features'
@@ -151,6 +152,7 @@ bard_field:
             frequency: /Year
         call_to_action: |-
           **Ready for easier choir management?**
+
           Get Started with Choir Concierge today with a 30-day FREE trial.
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'
