@@ -24,6 +24,14 @@
 @tailwind utilities;
 
 @layer base{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading;
+    }
     h1{
         @apply font-bold text-5xl;
     }

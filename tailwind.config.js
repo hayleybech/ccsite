@@ -9,8 +9,9 @@ export default {
     ],
 
     theme: {
-        fontFamily: {'sans': 'Manrope, Arial, Helvetica, sans-serif'},
+        fontFamily: {'sans': 'DM Sans, Arial, Helvetica, sans-serif'},
         extend: {
+            fontFamily: {'heading': 'Manrope, Arial, Helvetica, sans-serif'},
             colors: {
                 'brand-off-white': '#f2f1f3',
             }

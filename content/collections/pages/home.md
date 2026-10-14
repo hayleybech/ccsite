@@ -102,6 +102,30 @@ bard_field:
   -
     type: set
     attrs:
+      id: m0rr7m3q
+      values:
+        type: reviews
+        kicker: 'A few reviews from our community'
+        heading: 'Music to our ears'
+        description: "From the rehearsal room to the director's desk."
+        reviews:
+          -
+            id: m0ktkbam
+            logo:
+              - baden_st_logo_v1-150x150.png
+            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
+            name: 'Sally McMaster'
+            role: 'Singer, The Baden Street Singers'
+          -
+            id: m0ktql40
+            logo:
+              - plu-choral-union-logo.jpg
+            name: 'Raul Dominguez, DMA'
+            role: 'Associate Director of Choral Studies, Pacific Lutheran University'
+            testimonial: 'Choral Union loves Choir Concierge! Organizing our choir life has never been so simple, thanks to their user friendly interface. Its “practice feature” is strong and keeps our members engaged outside of rehearsal. To all choir directors, make your life easier with Choir Concierge, so you can get back to making music!'
+  -
+    type: set
+    attrs:
       id: m0kkvton
       values:
         type: pricing_table
@@ -156,30 +180,6 @@ bard_field:
           Get Started with Choir Concierge today with a 30-day FREE trial.
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'
-  -
-    type: set
-    attrs:
-      id: m0rr7m3q
-      values:
-        type: reviews
-        kicker: Reviews
-        heading: 'What Our Customers Think'
-        description: 'Choir Concierge is trusted by choirs from around the world.'
-        reviews:
-          -
-            id: m0ktkbam
-            logo:
-              - baden_st_logo_v1-150x150.png
-            testimonial: "The ability to see all of my choir's sheet music, learning tracks and upcoming events in one place is amazing. Both the desktop and mobile sites are very user-friendly, and the in-built pitch pipe in the starting key of each song is especially handy."
-            name: 'Sally McMaster'
-            role: 'Singer, The Baden Street Singers'
-          -
-            id: m0ktql40
-            logo:
-              - plu-choral-union-logo.jpg
-            name: 'Raul Dominguez, DMA'
-            role: 'Associate Director of Choral Studies, Pacific Lutheran University'
-            testimonial: 'Choral Union loves Choir Concierge! Organizing our choir life has never been so simple, thanks to their user friendly interface. Its “practice feature” is strong and keeps our members engaged outside of rehearsal. To all choir directors, make your life easier with Choir Concierge, so you can get back to making music!'
   -
     type: set
     attrs:
