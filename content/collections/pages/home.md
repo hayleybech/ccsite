@@ -13,7 +13,7 @@ bard_field:
         heading: 'Where your choir'
         heading_emphasis: 'lives'
         heading_suffix: 'between rehearsals'
-        eyebrow: 'A happy home for your choir'
+        eyebrow: 'Choir management software that gets you'
         intro: |-
           Bring your music, your people and all the little details together.
           Less organising. More of the singing you love.

@@ -10,7 +10,7 @@
         {{ features }}
             <article class="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition duration-200 hover:-translate-y-1 hover:shadow-lg">
                 {{ if image }}
-                    <div class="relative p-4 {{ [ 'bg-purple-100' => id === 'music-learning', 'bg-blue-100' => id === 'singers-membership', 'bg-orange-100' => id === 'events-performances' ] | classes }}">
+                    <div class="relative p-4 {{ [ 'bg-purple-100' => id === 'music-learning', 'bg-sky-100' => id === 'singers-membership', 'bg-orange-100' => id === 'events-performances' ] | classes }}">
                         <img src="/assets/{{ image }}" alt="{{ heading }}" class="aspect-[4/3] w-full rounded-lg object-cover" loading="lazy" />
                         <button type="button" data-image-modal-open="{{ id }}-image-modal" aria-label="Zoom in on {{ heading }}" class="absolute bottom-6 right-6 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
                             <svg class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
