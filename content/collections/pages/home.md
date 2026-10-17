@@ -94,14 +94,21 @@ bard_field:
             heading: "Know where everyone's up to"
             description: 'Keep track of learning progress, organise audition songs and give singers easy access to the resources they need to prepare.'
             image: cc-singer-show.png
-            link_label: 'Explore singer & membership tools'
+            link_label: 'Explore membership tools'
             link_url: /member-management/
           -
             id: events-performances
             heading: 'Ready for performance day'
             description: 'Bring set lists, schedules, attendance and even riser positions together, so the whole choir is better prepared for what’s ahead.'
             image: cc-att-report.png
-            link_label: 'Explore events & performances'
+            link_label: 'Explore events'
+            link_url: /features/
+          -
+            id: choir-organisation
+            heading: 'Everything in one place'
+            description: 'Keep your choir organised with the details, updates and resources everyone needs, all in one easy-to-use space.'
+            image: choir-concierge-devices.png
+            link_label: 'Explore all features'
             link_url: /features/
         cta_heading: 'Want to see everything Choir Concierge can do?'
         cta_label: 'Explore all features'
