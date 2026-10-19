@@ -1,19 +1,29 @@
-<nav class="bg-white py-8">
-    <div class="container mx-auto flex justify-between flex-col lg:flex-row items-center gap-4">
-        <div class="flex grow items-center justify-left space-x-4">
+<nav class="bg-white py-4 lg:py-8" aria-label="Main navigation">
+    <div class="container mx-auto flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between lg:gap-8 pl-8 pr-4 lg:px-0">
+        <div class="flex items-center justify-between">
             {{ asset url="/assets/logo-dark.svg" }}
-                <a href="/"><img src="{{ url }}" alt="{{ alt }}" class="h-11 pr-4"></a>
+                <a href="/"><img src="{{ url }}" alt="{{ alt }}" class="h-10 lg:h-11 pr-4"></a>
             {{ /asset }}
-            <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+            <button type="button" class="rounded p-2 text-gray-800 hover:text-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500 lg:hidden" aria-label="Open main menu" aria-expanded="false" aria-controls="main-navigation" data-main-nav-toggle>
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" data-menu-open-icon>
+                    <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg class="hidden h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" data-menu-close-icon>
+                    <path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="main-navigation" class="hidden pt-2 lg:flex lg:flex-1 lg:items-center lg:justify-between lg:pt-0">
+            <div class="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-5">
                 <a href="/#features" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Features</a>
                 <a href="/#pricing" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Pricing</a>
                 <a href="/#our-story" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Our story</a>
                 <a href="/contact-us" class="text-sm font-semibold text-gray-800 hover:text-purple-500">Contact</a>
             </div>
-        </div>
-        <div class="flex items-center space-x-4">
-            {{ partial:button url="https://choirconcierge.com/app/login" text="Login" variant="secondary"}}
-            {{ partial:button url="https://choirconcierge.com/app/register" text="Take a peek" variant="primary" arrow="true"}}
+            <div class="mt-4 flex flex-col gap-3 lg:mt-0 lg:flex-row lg:items-center lg:gap-4">
+                {{ partial:button url="https://choirconcierge.com/app/login" text="Login" variant="secondary"}}
+                {{ partial:button url="https://choirconcierge.com/app/register" text="Take a peek" variant="primary" arrow="true"}}
+            </div>
         </div>
     </div>
 </nav>

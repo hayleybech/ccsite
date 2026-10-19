@@ -1,3 +1,33 @@
+const mainNavToggle = document.querySelector('[data-main-nav-toggle]');
+const mainNav = document.getElementById('main-navigation');
+
+if (mainNavToggle && mainNav) {
+    const setMainNavOpen = (isOpen) => {
+        mainNavToggle.setAttribute('aria-expanded', String(isOpen));
+        mainNavToggle.setAttribute('aria-label', isOpen ? 'Close main menu' : 'Open main menu');
+        mainNav.classList.toggle('hidden', !isOpen);
+        mainNavToggle.querySelector('[data-menu-open-icon]')?.classList.toggle('hidden', isOpen);
+        mainNavToggle.querySelector('[data-menu-close-icon]')?.classList.toggle('hidden', !isOpen);
+    };
+
+    mainNavToggle.addEventListener('click', () => {
+        setMainNavOpen(mainNavToggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    mainNav.addEventListener('click', (event) => {
+        if (event.target instanceof Element && event.target.closest('a')) {
+            setMainNavOpen(false);
+        }
+    });
+
+    mainNav.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            setMainNavOpen(false);
+            mainNavToggle.focus();
+        }
+    });
+}
+
 document.querySelectorAll('[data-image-modal-open]').forEach((button) => {
     const dialog = document.getElementById(button.dataset.imageModalOpen);
 
