@@ -119,6 +119,58 @@ tabs:
                           field:
                             type: toggle
                             display: 'Home Page Header'
+                    benefits:
+                      display: Benefits
+                      icon: favorite-heart
+                      fields:
+                        -
+                          handle: eyebrow
+                          field:
+                            type: text
+                            display: Eyebrow
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: intro
+                          field:
+                            type: textarea
+                            display: Intro
+                        -
+                          handle: benefits
+                          field:
+                            type: grid
+                            display: Benefits
+                            fields:
+                              -
+                                handle: icon
+                                field:
+                                  type: text
+                                  display: Icon
+                                  width: 33
+                              -
+                                handle: heading
+                                field:
+                                  type: text
+                                  display: Heading
+                                  width: 66
+                              -
+                                handle: description
+                                field:
+                                  type: textarea
+                                  display: Description
+                              -
+                                handle: quote_heading
+                                field:
+                                  type: text
+                                  display: 'Quote Heading'
+                              -
+                                handle: quote
+                                field:
+                                  type: textarea
+                                  display: Quote
                     pricing_table:
                       display: 'Pricing Table'
                       icon: money-cashier-price-tag

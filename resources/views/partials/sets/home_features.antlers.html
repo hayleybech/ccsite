@@ -1,7 +1,7 @@
-<section id="features" class="bg-white py-12 px-8 w-full">
+<section id="features" class="bg-white py-12 px-6 lg:px-8 w-full">
     <div class="container mx-auto flex justify-center">
         <div class="text-center">
-            <div class="mb-3 text-sm font-bold uppercase tracking-[0.12em] text-purple-500">A little less admin. A lot more harmony.</div>
+            <div class="mb-3 text-sm font-bold uppercase tracking-[0.12em] text-purple-500">{{ eyebrow }}</div>
             <h2 class="mb-4 text-gray-900">{{ heading }}</h2>
             <div class="mb-12 text-gray-500">{{ intro }}</div>
         </div>
@@ -13,9 +13,9 @@
             </svg>
         </button>
         <div class="flex min-w-0 flex-1 flex-col">
-            <div id="features-carousel" data-features-carousel role="region" aria-label="Feature cards" tabindex="0" class="features-scrollbar flex snap-x snap-mandatory items-stretch gap-6 overflow-x-auto px-1.5 pt-3 pb-4 scroll-smooth focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+            <div id="features-carousel" data-features-carousel role="region" aria-label="Feature cards" tabindex="0" class="features-scrollbar flex snap-x snap-mandatory items-stretch gap-4 lg:gap-6 overflow-x-auto px-1.5 pt-3 pb-4 scroll-smooth focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
                 {{ features }}
-                    <article class="w-[70%] shrink-0 snap-start scroll-ml-1.5 flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition duration-200 hover:-translate-y-1 hover:shadow-lg sm:w-72">
+                    <article class="w-[80%] shrink-0 snap-start scroll-ml-1.5 flex flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-200 transition duration-200 hover:-translate-y-1 hover:shadow-lg sm:w-72">
                         {{ if image }}
                             <div class="relative p-4 {{ [ 'bg-purple-100' => id === 'music-learning', 'bg-sky-100' => id === 'singers-membership', 'bg-orange-100' => id === 'events-performances', 'bg-emerald-100' => id === 'choir-organisation' ] | classes }}">
                                 <img src="/assets/{{ image }}" alt="{{ heading }}" class="aspect-video w-full rounded-lg object-contain" loading="lazy" />
