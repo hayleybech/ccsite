@@ -126,6 +126,32 @@ bard_field:
   -
     type: set
     attrs:
+      id: lyb52cho
+      values:
+        type: multi_choirs
+        eyebrow: 'Flexible by nature'
+        heading: 'However your choir life is organised, we’ve got you.'
+        intro: 'Some people sing with several independent choirs. Others manage one organisation with multiple ensembles, sections or musical groups. And sometimes, you’re doing both!'
+        emphasis: 'Choir Concierge is designed to accommodate the way real choirs work — connecting the things that belong together, while giving each group the space and structure it needs.'
+        callout: '...or both!'
+        cards:
+          -
+            id: single-login
+            heading: 'One login. All your choirs.'
+            description: 'Belong to multiple organisations? Move between their workspaces with one login, and see upcoming events and music to learn across all of them from your central dashboard.'
+            image: cc-central-dash.png
+            link_label: 'Explore single login'
+            link_url: /features/
+          -
+            id: ensembles
+            heading: 'One organisation. Many ensembles.'
+            description: 'Run several musical groups under one organisation. Keep membership and finance management in one place, while tailoring songs, events and mailing lists to the ensembles that need them.'
+            image: cc-create-enrolment.png
+            link_label: 'Explore ensembles'
+            link_url: /member-management/
+  -
+    type: set
+    attrs:
       id: m0rr7m3q
       values:
         type: reviews
