@@ -1,7 +1,7 @@
 ---
 id: home
 blueprint: pages
-title: 'Home'
+title: Home
 seo_title: 'Choir Concierge: Management app for your choir'
 bard_field:
   -
@@ -11,7 +11,7 @@ bard_field:
       values:
         type: hero
         heading: 'Where your choir'
-        heading_emphasis: 'lives'
+        heading_emphasis: lives
         heading_suffix: 'between rehearsals'
         eyebrow: 'Choir management software that gets you'
         intro: |-
@@ -43,11 +43,15 @@ bard_field:
           -
             id: m1084zh3
             logo_image:
-              - pansol-logo.png
+              - plu-choral-union-logo.png
           -
             id: m10850tt
             logo_image:
               - images.png
+          -
+            id: mvfwnji0
+            logo_image:
+              - transcend-choir-logo.jpg
   -
     type: set
     attrs:
@@ -76,7 +80,7 @@ bard_field:
             id: music-ready
             icon: 'fas fa-music'
             heading: 'Thoughtfully put together'
-            description: "You shouldn't have to dig through menus to find what you need. Choir Concierge brings relevant information together in the places you'd expect to find it, with an experience tailored to your role and designed for the task at hand — from managing choir admin on your desktop to checking details or practising on your mobile."
+            description: "You shouldn't have to dig through menus to find what you need. Choir Concierge brings relevant information together in the places you'd expect to find it, with an experience tailored to your role and designed for the task at hand - from managing choir admin on your desktop to checking details or practising on your phone."
           -
             id: more-singing
             icon: 'fas fa-heart'
@@ -132,7 +136,7 @@ bard_field:
         eyebrow: 'Flexible by nature'
         heading: 'However your choir life is organised, we’ve got you.'
         intro: 'Some people sing with several independent choirs. Others manage one organisation with multiple ensembles, sections or musical groups. And sometimes, you’re doing both!'
-        emphasis: 'Choir Concierge is designed to accommodate the way real choirs work — connecting the things that belong together, while giving each group the space and structure it needs.'
+        emphasis: 'Choir Concierge is designed to accommodate the way real choirs work - connecting the things that belong together, while giving each group the space and structure it needs.'
         callout: '...or both!'
         cards:
           -
@@ -270,5 +274,5 @@ bard_field:
         button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1771934623
+updated_at: 1792453723
 ---
