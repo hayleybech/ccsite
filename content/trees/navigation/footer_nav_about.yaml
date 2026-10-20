@@ -1,5 +1,8 @@
 tree:
   -
+    title: 'Features'
+    url: '/features'
+  -
     id: 3237387f-207f-47b8-9633-67fb26c159c9
     title: 'Our Story'
     url: '/#our-story'
