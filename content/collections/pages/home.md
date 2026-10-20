@@ -12,7 +12,7 @@ bard_field:
         type: hero
         heading: 'Where your choir'
         heading_emphasis: lives
-        heading_suffix: 'between rehearsals'
+        heading_suffix: 'between rehearsals.'
         eyebrow: 'Choir management software that gets you'
         intro: |-
           Bring your music, your people and all the little details together.
@@ -59,7 +59,7 @@ bard_field:
       values:
         type: benefits
         eyebrow: 'Why Choir Concierge?'
-        heading: 'A little different, by design'
+        heading: 'A little different, by design.'
         intro: 'Choir management software should understand the people who use it. Choir Concierge is built with real choir experience, genuine care, and a constant drive to make choir life that little bit better.'
         benefits:
           -
@@ -93,7 +93,7 @@ bard_field:
       values:
         type: home_features
         eyebrow: 'Everything your choir needs to thrive'
-        heading: 'A closer look at what you can do'
+        heading: 'A closer look at what you can do.'
         intro: 'From thoughtful tools for learning music to clever ways to keep your choir organised, Choir Concierge is built around the way choirs really work.'
         features:
           -
@@ -160,7 +160,7 @@ bard_field:
       values:
         type: reviews
         kicker: 'A few reviews from our community'
-        heading: 'Music to our ears'
+        heading: 'Music to our ears.'
         description: "From the rehearsal room to the director's desk."
         reviews:
           -
@@ -183,7 +183,7 @@ bard_field:
       id: m0kkvton
       values:
         type: pricing_table
-        heading: 'A plan for every choir'
+        heading: 'A plan for every choir.'
         blurb: 'From your first five voices to a full chorus. Every plan includes all features and unmetered storage.'
         products:
           -
@@ -240,7 +240,7 @@ bard_field:
       id: m0rr706r
       values:
         type: story
-        heading: 'Our Story'
+        heading: 'Our Story.'
         eyebrow: 'Built with a whole lot of heart'
         intro: |-
           A passion project.
