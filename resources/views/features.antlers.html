@@ -64,7 +64,7 @@
             </dialog>
 
             <div class="mt-14 grid gap-10 lg:grid-cols-3 lg:gap-12">
-                <ul class="space-y-4 [&_p]:text-sm [&_i]:text-sm text-gray-600 lg:col-span-2">
+                <ul class="space-y-2 [&_p]:text-sm [&_i]:text-sm text-gray-600 lg:col-span-2">
                     <li class="flex gap-3">
                         <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
                         <p><strong class="font-bold text-gray-900">Sheet music and learning tracks:</strong> Keep scores, demo recordings and part-learning tracks together with each song.</p>
@@ -100,35 +100,241 @@
         </div>
     </section>
 
-    <section id="events" class="scroll-mt-8 border-t border-gray-100 bg-gray-50 px-6 py-16 sm:py-20">
-        <div class="mx-auto max-w-3xl text-center">
-            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Events</p>
-            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Keep rehearsals and performances on track.</h2>
-            <p class="mt-5 text-sm leading-relaxed text-gray-600">Bring calendars, attendance, set lists, schedules and riser positions together in one place. Give everyone a clearer picture of what’s coming up, what they’re working towards and how it all comes together.</p>
+    <section id="events" class="scroll-mt-8 border-t border-gray-100 bg-orange-50 px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl">
+            <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+                <div>
+                    <p class="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">
+                        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+                        Events &amp; Attendance
+                    </p>
+                    <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Bring everyone onto the same page.</h2>
+                    <p class="mt-5 text-sm leading-relaxed text-gray-600">Rehearsals, performances, workshops, retreats and social events all need coordination. Choir Concierge makes it easier to organise what's coming up and keep track of who's attending.</p>
+                </div>
+                <div class="relative">
+                    <img src="/assets/cc-att-report.png" alt="Choir Concierge event attendance report" class="w-full rounded-xl shadow-xl ring-1 ring-gray-900/10" loading="lazy">
+                    <button type="button" data-image-modal-open="features-events-image-modal" aria-label="Zoom in on the Choir Concierge event attendance report" class="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                        <i class="fas fa-search-plus" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <dialog id="features-events-image-modal" aria-label="Expanded image: Choir Concierge event attendance report" class="image-modal w-[min(90vw,72rem)] max-w-none rounded-xl bg-white p-3 shadow-2xl backdrop:bg-gray-900/75">
+                <div class="flex justify-end pb-2">
+                    <button type="button" data-image-modal-close aria-label="Close image" class="flex h-10 w-10 items-center justify-center rounded-full text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <img src="/assets/cc-att-report.png" alt="Choir Concierge event attendance report" class="mx-auto max-h-[80vh] w-auto rounded-lg object-contain">
+            </dialog>
+
+            <ul class="mt-8 grid gap-x-10 gap-y-2 sm:grid-cols-2 [&_p]:text-sm [&_i]:text-sm text-gray-600">
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Plan events:</strong> Set dates, times, locations, arrival times, descriptions and schedules, including the songs planned for each event.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Collect RSVPs:</strong> See who's going, who's unsure and who hasn't responded yet. Review useful planning details such as dietary requirements and medical information.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Record attendance:</strong> Mark attendance individually or in bulk, with options for late arrivals and absence reasons.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Make check-in easier:</strong> Use a shared-device kiosk or a QR code for singers to check themselves in.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Sync your calendar:</strong> Add individual events to your calendar or subscribe to a choir calendar feed.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Understand attendance:</strong> Review attendance reports across a period, compare participation and identify changes in engagement over time.</p>
+                </li>
+            </ul>
+
+            <p class="mt-8 max-w-3xl text-sm font-medium leading-relaxed text-gray-700">From the weekly rehearsal to the big performance, spend less time chasing responses and more time getting the choir ready.</p>
         </div>
     </section>
 
-    <section id="membership" class="scroll-mt-8 bg-white px-6 py-16 sm:py-20">
-        <div class="mx-auto max-w-3xl text-center">
-            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Membership</p>
-            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Spend less time on admin.</h2>
-            <p class="mt-5 text-sm leading-relaxed text-gray-600">Keep member details, roles, fees and onboarding organised in one place. Spend less time chasing information and more time supporting your singers and shaping the choir you want to be.</p>
+    <section id="membership" class="scroll-mt-8 bg-blue-50 px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl">
+            <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+                <div>
+                    <p class="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                        Membership
+                    </p>
+                    <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Know your people. Keep everything organised.</h2>
+                    <p class="mt-5 text-sm leading-relaxed text-gray-600">Your choir is more than a list of names. Choir Concierge keeps singer information, membership history and practical administrative details together, so the people looking after the choir can find what they need.</p>
+                </div>
+                <div class="relative">
+                    <img src="/assets/cc-singer-show.png" alt="Choir Concierge singer profile with membership information" class="w-full rounded-xl shadow-xl ring-1 ring-gray-900/10" loading="lazy">
+                    <button type="button" data-image-modal-open="features-membership-image-modal" aria-label="Zoom in on the Choir Concierge singer profile" class="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                        <i class="fas fa-search-plus" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <dialog id="features-membership-image-modal" aria-label="Expanded image: Choir Concierge singer profile" class="image-modal w-[min(90vw,72rem)] max-w-none rounded-xl bg-white p-3 shadow-2xl backdrop:bg-gray-900/75">
+                    <div class="flex justify-end pb-2">
+                        <button type="button" data-image-modal-close aria-label="Close image" class="flex h-10 w-10 items-center justify-center rounded-full text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                            <i class="fas fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <img src="/assets/cc-singer-show.png" alt="Choir Concierge singer profile with membership information" class="mx-auto max-h-[80vh] w-auto rounded-lg object-contain">
+                </dialog>
+            </div>
+
+            <ul class="mt-10 grid gap-x-10 gap-y-2 sm:grid-cols-2 [&_p]:text-sm [&_i]:text-sm text-gray-600">
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Rich singer profiles:</strong> Store contact details, emergency contacts, membership information, voice placement and other relevant details.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Flexible membership statuses:</strong> Keep track of regular members, inactive members, prospects and former members.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Voice parts and ensembles:</strong> Record each singer's voice part in the relevant ensemble, even when they sing in different groups.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Custom fields:</strong> Capture the information that matters to your choir, without being limited to a fixed set of fields.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Membership fee tracking:</strong> Keep an eye on fee due dates and see who's paid, approaching expiry or overdue.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Import and export:</strong> Import singer information from supported choir-management systems or a CSV template, and export records when needed.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Preserve membership history:</strong> Retain historical records as singers move through different stages of membership.</p>
+                </li>
+            </ul>
         </div>
     </section>
 
-    <section id="communication" class="scroll-mt-8 border-t border-gray-100 bg-gray-50 px-6 py-16 sm:py-20">
-        <div class="mx-auto max-w-3xl text-center">
-            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Communication</p>
-            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Keep everyone in the loop.</h2>
-            <p class="mt-5 text-sm leading-relaxed text-gray-600">Send updates to the whole choir or just the people who need them. Make it easier for everyone to stay connected to what’s happening, share in the excitement of what’s ahead and feel part of the bigger picture.</p>
+    <section id="communication" class="scroll-mt-8 border-t border-gray-100 bg-green-50 px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl">
+            <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+                <div>
+                    <p class="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">
+                        <i class="far fa-envelope" aria-hidden="true"></i>
+                        Communications
+                    </p>
+                    <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Choir-wide communication, without the chaos.</h2>
+                    <p class="mt-5 text-sm leading-relaxed text-gray-600">Important messages shouldn't disappear into a maze of inboxes, group chats and forwarded emails. Choir Concierge connects your choir's email communication with the people and groups it needs to reach.</p>
+                </div>
+                <div class="relative">
+                    <img src="/assets/cc-comms.png" alt="Choir Concierge mailing list and choir email communication" class="w-full rounded-xl shadow-xl ring-1 ring-gray-900/10" loading="lazy">
+                    <button type="button" data-image-modal-open="features-communication-image-modal" aria-label="Zoom in on Choir Concierge communications" class="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                        <i class="fas fa-search-plus" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <dialog id="features-communication-image-modal" aria-label="Expanded image: Choir Concierge communications" class="image-modal w-[min(90vw,72rem)] max-w-none rounded-xl bg-white p-3 shadow-2xl backdrop:bg-gray-900/75">
+                    <div class="flex justify-end pb-2">
+                        <button type="button" data-image-modal-close aria-label="Close image" class="flex h-10 w-10 items-center justify-center rounded-full text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                            <i class="fas fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <img src="/assets/cc-comms.png" alt="Choir Concierge mailing list and choir email communication" class="mx-auto max-h-[80vh] w-auto rounded-lg object-contain">
+                </dialog>
+            </div>
+
+            <aside class="mt-6 border-l-2 border-sky-500 pl-5 text-gray-600 py-2">
+                <i class="far fa-envelope mb-4 text-3xl text-purple-600" aria-hidden="true"></i>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-800">Keep using your usual email client.</h3>
+                    <p class="mt-2 text-sm leading-relaxed">Choir mailing lists let you send messages from your own email account, while Choir Concierge handles distribution to the list's recipients and records the message in the system.</p>
+                </div>
+            </aside>
+
+            <ul class="mt-8 grid gap-x-10 gap-y-2 sm:grid-cols-2 [&_p]:text-sm [&_i]:text-sm text-gray-600">
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Mailing lists for every purpose:</strong> Set up lists for the whole choir, individual ensembles, leadership teams, music teams or other groups.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Reach the right people:</strong> Target recipients and senders by singer, role, voice part, membership status or ensemble.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Choose how conversations work:</strong> Use chat-style lists for group conversations, mailouts for announcements, or public lists for designated contact addresses.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Send polished broadcasts:</strong> Compose announcements in Choir Concierge with rich-text formatting and attachments.</p>
+                </li>
+                <li class="flex gap-3">
+                    <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                    <p><strong class="font-bold text-gray-800">Keep a central record:</strong> Review sent messages, inbound emails, distribution activity and message opens.</p>
+                </li>
+            </ul>
+
+            <p class="mt-8 max-w-3xl text-sm font-medium leading-relaxed text-gray-700">Whether you're coordinating a committee, announcing a new piece of repertoire or sending information to the whole choir, communication stays connected to your organisation.</p>
         </div>
     </section>
 
     <section id="your-choirs" class="scroll-mt-8 bg-white px-6 py-16 sm:py-20">
-        <div class="mx-auto max-w-3xl text-center">
-            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Your choirs</p>
-            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">One login. All your choirs.</h2>
-            <p class="mt-5 text-sm leading-relaxed text-gray-600">Some people sing with several independent choirs. Others manage one organisation with multiple ensembles, sections or musical groups. Choir Concierge connects the things that belong together, while giving each group the space and structure it needs.</p>
+        <div class="mx-auto max-w-6xl">
+            <div class="max-w-3xl">
+                <p class="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">
+                    <i class="fas fa-key" aria-hidden="true"></i>
+                    Single Login &amp; Ensembles
+                </p>
+                <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">One account. Multiple groups. Less juggling</h2>
+                <p class="mt-5 text-sm leading-relaxed text-gray-600">Choirs don't always operate as a single, uniform group. Singers may belong to several organisations, while a single organisation might contain multiple ensembles with different members, music and activities.</p>
+                <p class="mt-4 text-sm leading-relaxed text-gray-600">Choir Concierge is designed to accommodate both.</p>
+            </div>
+
+            <div class="mt-10 grid gap-10 lg:grid-cols-2 lg:gap-14">
+                <article>
+                    <div class="relative flex aspect-video items-center justify-center">
+                        <img src="/assets/cc-central-dash.png" alt="Choir Concierge dashboard for switching between choir organisations" class="h-full w-full rounded-xl object-contain shadow-xl ring-1 ring-gray-900/10" loading="lazy">
+                        <button type="button" data-image-modal-open="features-central-dashboard-image-modal" aria-label="Zoom in on the Choir Concierge multi-choir dashboard" class="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                            <i class="fas fa-search-plus" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <dialog id="features-central-dashboard-image-modal" aria-label="Expanded image: Choir Concierge multi-choir dashboard" class="image-modal w-[min(90vw,72rem)] max-w-none rounded-xl bg-white p-3 shadow-2xl backdrop:bg-gray-900/75">
+                        <div class="flex justify-end pb-2">
+                            <button type="button" data-image-modal-close aria-label="Close image" class="flex h-10 w-10 items-center justify-center rounded-full text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                                <i class="fas fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <img src="/assets/cc-central-dash.png" alt="Choir Concierge dashboard for switching between choir organisations" class="mx-auto max-h-[80vh] w-auto rounded-lg object-contain">
+                    </dialog>
+                    <h3 class="mt-6 text-lg font-bold text-gray-900">One login across multiple choirs</h3>
+                    <p class="mt-3 text-sm leading-relaxed text-gray-600">Use the same login to access multiple Choir Concierge organisations. Switch between choirs without juggling separate accounts or passwords, and choose a default choir to go straight to the workspace you use most.</p>
+                </article>
+                <article>
+                    <div class="relative flex aspect-video items-center justify-center">
+                        <img src="/assets/cc-create-enrolment.png" alt="Choir Concierge ensemble enrolment and singer assignments" class="h-full w-full rounded-xl object-contain shadow-xl ring-1 ring-gray-900/10" loading="lazy">
+                        <button type="button" data-image-modal-open="features-ensemble-image-modal" aria-label="Zoom in on Choir Concierge ensemble enrolment" class="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                            <i class="fas fa-search-plus" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <dialog id="features-ensemble-image-modal" aria-label="Expanded image: Choir Concierge ensemble enrolment" class="image-modal w-[min(90vw,72rem)] max-w-none rounded-xl bg-white p-3 shadow-2xl backdrop:bg-gray-900/75">
+                        <div class="flex justify-end pb-2">
+                            <button type="button" data-image-modal-close aria-label="Close image" class="flex h-10 w-10 items-center justify-center rounded-full text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                                <i class="fas fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <img src="/assets/cc-create-enrolment.png" alt="Choir Concierge ensemble enrolment and singer assignments" class="mx-auto max-h-[80vh] w-auto rounded-lg object-contain">
+                    </dialog>
+                    <h3 class="mt-6 text-lg font-bold text-gray-900">Multiple ensembles within your choir</h3>
+                    <p class="mt-3 text-sm leading-relaxed text-gray-600">Organise one or more ensembles within an organisation. Enrol singers in the groups they belong to, assign their voice part for each ensemble, and associate songs, events and other resources with the relevant groups.</p>
+                    <p class="mt-3 text-sm leading-relaxed text-gray-600">When an item is assigned to specific ensembles, it can be shown to the singers enrolled in those groups. Items without an ensemble restriction remain available across the organisation.</p>
+                </article>
+            </div>
+
+            <div class="mt-10 border-t border-gray-200 pt-6">
+                <p class="text-sm leading-relaxed text-gray-600"><strong class="font-bold text-gray-800">The result:</strong> a setup that works for a single choir, a choir with sub-groups, or people involved in multiple organisations — without forcing everyone into the same structure.</p>
+            </div>
         </div>
     </section>
 
