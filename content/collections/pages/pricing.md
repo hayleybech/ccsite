@@ -1,5 +1,6 @@
 ---
 id: 18a94619-eccd-42c2-b627-04c6e5e08992
+published: false
 blueprint: page
 title: Pricing
 bard_field:
@@ -93,7 +94,6 @@ bard_field:
         button_label: 'Start Free Trial'
         button_url: 'https://choirconcierge.com/app/register'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-parent: home
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
-updated_at: 1771934642
+updated_at: 1792491406
 ---
