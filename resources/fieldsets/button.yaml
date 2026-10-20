@@ -33,6 +33,5 @@ fields:
             options:
               primary: Primary
               secondary: Secondary
-              secondary-inv: 'Secondary Inverse'
             type: radio
             display: 'Button Variant'

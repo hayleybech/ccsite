@@ -36,25 +36,32 @@ tabs:
                             type: text
                             display: Heading
                         -
+                          handle: heading_emphasis
+                          field:
+                            type: text
+                            display: 'Heading Emphasis'
+                            width: 50
+                        -
+                          handle: heading_suffix
+                          field:
+                            type: text
+                            display: 'Heading Suffix'
+                            width: 50
+                        -
                           handle: eyebrow
                           field:
                             type: text
                             display: Eyebrow
                         -
-                          handle: subheading
-                          field:
-                            type: text
-                            display: Subheading
-                        -
-                          handle: ux_header
-                          field:
-                            type: text
-                            display: 'UX Header'
-                        -
                           handle: description
                           field:
                             type: markdown
                             display: Description
+                        -
+                          handle: intro
+                          field:
+                            type: textarea
+                            display: Intro
                         -
                           handle: button_label
                           field:
@@ -67,6 +74,23 @@ tabs:
                             type: link
                             display: 'Button URL'
                             width: 50
+                        -
+                          handle: secondary_button_label
+                          field:
+                            type: text
+                            display: 'Secondary Button Label'
+                            width: 50
+                        -
+                          handle: secondary_button_url
+                          field:
+                            type: link
+                            display: 'Secondary Button URL'
+                            width: 50
+                        -
+                          handle: tagline
+                          field:
+                            type: text
+                            display: Tagline
                         -
                           handle: icon
                           field:
@@ -85,6 +109,58 @@ tabs:
                           field:
                             type: toggle
                             display: 'Home Page Header'
+                    benefits:
+                      display: Benefits
+                      icon: favorite-heart
+                      fields:
+                        -
+                          handle: eyebrow
+                          field:
+                            type: text
+                            display: Eyebrow
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: intro
+                          field:
+                            type: textarea
+                            display: Intro
+                        -
+                          handle: benefits
+                          field:
+                            type: grid
+                            display: Benefits
+                            fields:
+                              -
+                                handle: icon
+                                field:
+                                  type: text
+                                  display: Icon
+                                  width: 33
+                              -
+                                handle: heading
+                                field:
+                                  type: text
+                                  display: Heading
+                                  width: 66
+                              -
+                                handle: description
+                                field:
+                                  type: textarea
+                                  display: Description
+                              -
+                                handle: quote_heading
+                                field:
+                                  type: text
+                                  display: 'Quote Heading'
+                              -
+                                handle: quote
+                                field:
+                                  type: textarea
+                                  display: Quote
                     pricing_table:
                       display: 'Pricing Table'
                       icon: money-cashier-price-tag
@@ -268,6 +344,183 @@ tabs:
                             type: text
                             display: 'Button Label'
                             width: 50
+                    home_features:
+                      display: 'Home Features'
+                      icon: favorite-star
+                      fields:
+                        -
+                          handle: eyebrow
+                          field:
+                            type: text
+                            display: Eyebrow
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: intro
+                          field:
+                            type: textarea
+                            display: Intro
+                        -
+                          handle: features
+                          field:
+                            type: grid
+                            display: Features
+                            fields:
+                              -
+                                handle: id
+                                field:
+                                  type: text
+                                  display: 'Feature ID'
+                              -
+                                handle: heading
+                                field:
+                                  type: text
+                                  display: Heading
+                              -
+                                handle: description
+                                field:
+                                  type: textarea
+                                  display: Description
+                              -
+                                handle: image
+                                field:
+                                  type: text
+                                  display: 'Image filename'
+                              -
+                                handle: link_label
+                                field:
+                                  type: text
+                                  display: 'Link Label'
+                              -
+                                handle: link_url
+                                field:
+                                  type: link
+                                  display: 'Link URL'
+                        -
+                          handle: cta_heading
+                          field:
+                            type: text
+                            display: 'CTA Heading'
+                        -
+                          handle: cta_label
+                          field:
+                            type: text
+                            display: 'CTA Label'
+                        -
+                          handle: cta_url
+                          field:
+                            type: link
+                            display: 'CTA URL'
+                    story:
+                      display: Story
+                      icon: favorite-heart
+                      fields:
+                        -
+                          handle: eyebrow
+                          field:
+                            type: text
+                            display: Eyebrow
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: intro
+                          field:
+                            type: textarea
+                            display: Intro
+                        -
+                          handle: description
+                          field:
+                            type: markdown
+                            display: Description
+                        -
+                          handle: button_url
+                          field:
+                            type: link
+                            display: 'Button URL'
+                            width: 50
+                        -
+                          handle: button_label
+                          field:
+                            type: text
+                            display: 'Button Label'
+                            width: 50
+                        -
+                          handle: image
+                          field:
+                            type: text
+                            display: 'Image filename'
+                    multi_choirs:
+                      display: 'Multi-Choirs'
+                      icon: users-group
+                      fields:
+                        -
+                          handle: eyebrow
+                          field:
+                            type: text
+                            display: Eyebrow
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: intro
+                          field:
+                            type: textarea
+                            display: Intro
+                        -
+                          handle: emphasis
+                          field:
+                            type: textarea
+                            display: 'Emphasized Intro'
+                        -
+                          handle: callout
+                          field:
+                            type: text
+                            display: Callout
+                        -
+                          handle: cards
+                          field:
+                            type: grid
+                            display: Cards
+                            mode: stacked
+                            fields:
+                              -
+                                handle: id
+                                field:
+                                  type: text
+                                  display: 'Card ID'
+                              -
+                                handle: heading
+                                field:
+                                  type: text
+                                  display: Heading
+                              -
+                                handle: description
+                                field:
+                                  type: textarea
+                                  display: Description
+                              -
+                                handle: image
+                                field:
+                                  type: text
+                                  display: 'Image filename'
+                              -
+                                handle: link_label
+                                field:
+                                  type: text
+                                  display: 'Link Label'
+                              -
+                                handle: link_url
+                                field:
+                                  type: link
+                                  display: 'Link URL'
                     reviews:
                       display: Reviews
                       icon: mail-chat-bubble-text

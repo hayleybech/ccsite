@@ -6,9 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ seo_title ? seo_title : (title ? (title + " | " + site:name) : site:name) }}</title>
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
-        <link rel="preconnect" href="https://rsms.me/">
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <link href="/vendor/fontawesome-pro/css/all.min.css" rel="stylesheet">
+
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -18,7 +21,7 @@
         })(window,document,'script','dataLayer','GTM-TTMGRJT');</script>
         <!-- End Google Tag Manager -->
     </head>
-    <body class="font-sans leading-normal text-gray-800">
+    <body class="font-sans leading-normal text-gray-700">
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTMGRJT"
                           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

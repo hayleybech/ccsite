@@ -1,0 +1,23 @@
+<section id="{{ heading | slugify }}" class="bg-white px-8 py-12">
+    <div class="mx-auto max-w-6xl">
+        {{ if image }}
+            <img src="/assets/{{ image }}" alt="{{ heading }}" class="mb-10 w-full rounded-3xl" loading="lazy" />
+        {{ /if }}
+        <div class="grid items-start gap-10 lg:grid-cols-5">
+            <div class="flex flex-col items-start lg:col-span-2">
+                <p class="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-[0.12em] text-purple-500">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                    {{ eyebrow }}
+                </p>
+                <h2 class="mb-4 text-gray-900">{{ heading }}</h2>
+                <p class="mt-4 text-xl font-normal leading-relaxed text-gray-700">{{ intro | nl2br }}</p>
+<!--                <div class="mt-2">-->
+<!--                    {{ partial:button url="{{ button_url }}" text="{{ button_label }}" variant="secondary" arrow="true" }}-->
+<!--                </div>-->
+            </div>
+            <div class="prose prose-sm prose-p:leading-loose max-w-none text-gray-600 lg:col-span-3">
+                {{ description | markdown }}
+            </div>
+        </div>
+    </div>
+</section>

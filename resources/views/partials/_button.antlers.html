@@ -1,11 +1,13 @@
 <a
     href="{{ url }}"
     class="
-        font-bold text-sm text-center px-10 py-3 rounded-full uppercase shadow-md inline-block
+        font-semibold text-center rounded-md shadow-md inline-block
         {{ [
-            'text-white bg-purple-800 hover:bg-purple-900' => variant==='primary',
-            'text-white hover:text-purple-200 border-2 border-white hover:border-purple-400' => variant==='secondary-inv',
-            'text-purple-900 hover:text-purple-700 border-2 border-purple-900 hover:border-purple-700' => variant==='secondary',
+            'text-sm px-4 py-2' => size!=='lg',
+            'text-base px-6 py-3' => size==='lg',
+            'text-white bg-purple-500 hover:bg-purple-600' => variant==='primary',
+            'text-gray-900 hover:text-gray-700 bg-white border border-gray-300 hover:border-gray-400' => variant==='secondary',
+            'text-white hover:text-gray-100 border border-white hover:bg-white/10' => variant==='secondary-inv',
         ] | classes}}
      "
     {{ if external }}
@@ -13,5 +15,5 @@
         rel="noopener noreferrer"
     {{ /if }}
 >
-    {{ text }}
+    {{ text }}{{ if arrow }} <i class="far fa-long-arrow-right ml-2" aria-hidden="true"></i>{{ /if }}
 </a>

@@ -4,31 +4,80 @@
 
 /* This is all you. */
 
-.feature-tab[aria-selected="true"] {
-    @apply text-purple-800;
-}
-
-.feature-tab-progress {
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: none;
-}
-
-.feature-tab-progress.is-active {
-    transform: scaleX(1);
-    transition: transform 10s linear;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@keyframes image-modal-scale-in {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.image-modal[open] {
+    animation: image-modal-scale-in 200ms ease-out both;
+    transform-origin: center;
+}
+
+.features-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.features-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+[data-features-scrollbar] {
+    position: relative;
+}
+
+[data-features-scrollbar-thumb] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 10%;
+    transition: background-color 150ms ease;
+}
+
+[data-features-scrollbar]:hover [data-features-scrollbar-thumb] {
+    background: #9333ea;
+}
+
+[data-features-scrollbar].is-dragging [data-features-scrollbar-thumb] {
+    cursor: grabbing;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .image-modal[open] {
+        animation: none;
+    }
+
+    .features-scrollbar {
+        scroll-behavior: auto !important;
+    }
+}
+
 @layer base{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading;
+    }
     h1{
         @apply font-bold text-5xl;
     }
     h2{
-        @apply font-bold text-3xl;
+        @apply font-black text-3xl;
     }
     p{
         @apply mb-3 text-base;
