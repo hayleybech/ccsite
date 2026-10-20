@@ -64,7 +64,7 @@ bard_field:
         benefits:
           -
             id: choir-person
-            icon: 'fas fa-users'
+            icon: 'fas fa-user-music'
             heading: 'Made by a choir person, for choir people'
             description: "Choir Concierge is shaped by real experience in the world of choir directing. It's built around what choirs actually need, with an understanding of what happens on stage, in rehearsal, and behind the scenes."
             quote_heading: 'A note from the founder'
@@ -78,12 +78,12 @@ bard_field:
             quote: 'I’m often approached during the break at rehearsals with app questions or troubleshooting. I love it! Feedback is the fuel I need to make the app even better, and I approach support emails the same way. Every question is a chance to make something better.'
           -
             id: music-ready
-            icon: 'fas fa-music'
+            icon: 'fas fa-hand-holding-heart'
             heading: 'Thoughtfully put together'
             description: "You shouldn't have to dig through menus to find what you need. Choir Concierge brings relevant information together in the places you'd expect to find it, with an experience tailored to your role and designed for the task at hand - from managing choir admin on your desktop to checking details or practising on your phone."
           -
             id: more-singing
-            icon: 'fas fa-heart'
+            icon: 'fas fa-battery-quarter'
             heading: 'Less wrestling with software. More singing.'
             description: 'Choir admin can be complicated enough without the software adding to it. Choir Concierge is designed to be straightforward and enjoyable for everyone, from the person managing the choir to the singer opening their music for the first time.'
   -
@@ -102,28 +102,28 @@ bard_field:
             description: 'Bring sheet music, learning tracks and a handy pitch pipe together in one simple rehearsal view. Help singers practise with confidence and arrive ready to make the most of every rehearsal, so you’re all moving towards the same goal.'
             image: cc-song-2.png
             link_label: 'Explore music & learning'
-            link_url: /features/
+            link_url: /features/#music-learning
           -
             id: singers-membership
             heading: 'Spend less time on admin'
             description: 'Keep member details, roles, fees and onboarding organised in one place. Spend less time chasing information and more time supporting your singers and shaping the choir you want to be.'
             image: cc-singer-show.png
             link_label: 'Explore membership tools'
-            link_url: /member-management/
+            link_url: /features/#membership
           -
             id: events-performances
             heading: 'Keep rehearsals and performances on track'
             description: 'Bring calendars, attendance, set lists, schedules and riser positions together in one place. Give everyone a clearer picture of what’s coming up, what they’re working towards and how it all comes together.'
             image: cc-att-report.png
             link_label: 'Explore events'
-            link_url: /features/
+            link_url: /features/#events
           -
             id: choir-organisation
             heading: 'Keep everyone in the loop'
             description: 'Send updates to the whole choir or just the people who need them. Make it easier for everyone to stay connected to what’s happening, share in the excitement of what’s ahead and feel part of the bigger picture.'
             image: cc-comms.png
-            link_label: 'Explore all features'
-            link_url: /features/
+            link_label: 'Explore communications'
+            link_url: /features/#communication
         cta_heading: 'Want to see everything Choir Concierge can do?'
         cta_label: 'Explore all features'
         cta_url: /features/
@@ -145,14 +145,14 @@ bard_field:
             description: 'Belong to multiple organisations? Move between their workspaces with one login, and see upcoming events and music to learn across all of them from your central dashboard.'
             image: cc-central-dash.png
             link_label: 'Explore single login'
-            link_url: /features/
+            link_url: /features/#your-choirs
           -
             id: ensembles
             heading: 'One organisation. Many ensembles.'
             description: 'Run several musical groups under one organisation. Keep membership and finance management in one place, while tailoring songs, events and mailing lists to the ensembles that need them.'
             image: cc-create-enrolment.png
             link_label: 'Explore ensembles'
-            link_url: /member-management/
+            link_url: /features/#your-choirs
   -
     type: set
     attrs:
@@ -254,24 +254,6 @@ bard_field:
         button_url: /about-us/
         image: 436748605_261393923666433_7699764950218552369_n.jpg
         button_label: 'Read the story behind the music'
-  -
-    type: set
-    attrs:
-      id: lyb51lhj
-      enabled: false
-      values:
-        type: blurb
-        heading: 'Our Story'
-        description: |-
-          Choir Concierge is a passion project started by Australian software developer and music lover Hayley Bech. As a choir director and music team member for multiple choirs, Hayley has had the opportunity to work with the majority of popular choir management apps on the market, learning what is important for choir management and what could be improved upon.
-
-          Choir Concierge was born out of a desire to create a choir management tool that was powerful, but also incredibly simple. The product was designed with user experience as the top priority.
-
-          After 7+ years of development, we are proud to be able to share with you our software. We truly believe it is a cutting-edge solution that won’t just help you manage your choir, but will also be easy to use while doing it.
-        button_url: /
-        image: 436748605_261393923666433_7699764950218552369_n.jpg
-        image_p: right
-        button_label: 'Learn More'
 author: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_by: e0914584-b3d7-47de-b3a3-dbfa807d4f0a
 updated_at: 1792453723
