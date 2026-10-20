@@ -1,0 +1,142 @@
+<main>
+    <header class="bg-purple-50 px-6 py-16 text-center sm:py-20 lg:py-16">
+        <div class="mx-auto max-w-4xl">
+            <p class="mb-4 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">
+                <i class="fas fa-music" aria-hidden="true"></i>
+                Choir Concierge Features
+            </p>
+            <h1 class="text-3xl font-extrabold !leading-snug tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+                Everything your choir needs.<br>
+                <span class="text-purple-600">All in harmony</span>.
+            </h1>
+            <p class="mx-auto mt-6 max-w-3xl leading-relaxed text-gray-600">
+                From learning your next competition set to sending emails, Choir Concierge brings your choir's day-to-day activities together in one easy-to-use place.
+            </p>
+            <p class="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
+                Less time chasing spreadsheets, juggling apps and tracking people down. More time making music together.
+            </p>
+            <a href="{{ brand:demo_url }}" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center rounded-md bg-purple-600 px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                Request a demo <i class="far fa-long-arrow-right ml-2" aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
+
+    <nav aria-label="Features sections" class="bg-white px-6 py-6 border-b">
+        <ul class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-5 text-xs font-semibold text-gray-600">
+            <li><a href="#music-learning" class="transition hover:text-purple-600 focus:text-purple-600">Music &amp; learning</a></li>
+            <li><a href="#events" class="transition hover:text-purple-600 focus:text-purple-600">Events</a></li>
+            <li><a href="#membership" class="transition hover:text-purple-600 focus:text-purple-600">Membership</a></li>
+            <li><a href="#communication" class="transition hover:text-purple-600 focus:text-purple-600">Communication</a></li>
+            <li><a href="#your-choirs" class="transition hover:text-purple-600 focus:text-purple-600">Your choirs</a></li>
+            <li><a href="#more-tools" class="transition hover:text-purple-600 focus:text-purple-600">More tools</a></li>
+        </ul>
+    </nav>
+
+    <section id="music-learning" class="scroll-mt-8 bg-white px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl">
+            <div class="mx-auto max-w-3xl text-center">
+                <p class="mb-3 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">
+                    <i class="fas fa-music" aria-hidden="true"></i>
+                    Music &amp; Learning
+                </p>
+                <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Help every singer arrive prepared.</h2>
+                <p class="mt-5 text-sm leading-relaxed text-gray-600">
+                    Your music library should do more than store PDFs. Choir Concierge gives singers the tools they need to learn their parts, practise at their own pace and prepare for performance — all in one place.
+                </p>
+            </div>
+
+            <div class="relative mx-auto mt-12 max-w-6xl">
+                <img src="/assets/cc-song-2.png" alt="Choir Concierge song page with sheet music, learning tracks and learning status" class="mx-auto w-full rounded-xl shadow-xl ring-1 ring-gray-900/10" loading="lazy">
+                <button type="button" data-image-modal-open="features-song-image-modal" aria-label="Zoom in on the Choir Concierge song page" class="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                    <svg class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+                        <circle cx="10.5" cy="10.5" r="6.5" />
+                        <path d="m15.5 15.5 5 5M10.5 7.5v6m-3-3h6" />
+                    </svg>
+                </button>
+            </div>
+            <dialog id="features-song-image-modal" aria-label="Expanded image: Choir Concierge song page" class="image-modal w-[min(90vw,72rem)] max-w-none rounded-xl bg-white p-3 shadow-2xl backdrop:bg-gray-900/75">
+                <div class="flex justify-end pb-2">
+                    <button type="button" data-image-modal-close aria-label="Close image" class="flex h-10 w-10 items-center justify-center rounded-full text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <img src="/assets/cc-song-2.png" alt="Choir Concierge song page with sheet music, learning tracks and learning status" class="mx-auto max-h-[80vh] w-auto rounded-lg object-contain">
+            </dialog>
+
+            <div class="mt-14 grid gap-10 lg:grid-cols-3 lg:gap-12">
+                <ul class="space-y-4 [&_p]:text-sm [&_i]:text-sm text-gray-600 lg:col-span-2">
+                    <li class="flex gap-3">
+                        <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                        <p><strong class="font-bold text-gray-900">Sheet music and learning tracks:</strong> Keep scores, demo recordings and part-learning tracks together with each song.</p>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                        <p><strong class="font-bold text-gray-900">Practise your way:</strong> Read sheet music while listening to audio, adjust tempo and pitch, control volume and pan, or jump back a few seconds to practise a tricky passage.</p>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                        <p><strong class="font-bold text-gray-900">Find your pitch:</strong> Use the built-in pitch pipe and chromatic scale to help singers find their starting notes.</p>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                        <p><strong class="font-bold text-gray-900">Track learning progress:</strong> Singers can mark songs they're learning or ready to be assessed on, while music leaders can track progress and mark songs performance-ready.</p>
+                    </li>
+                    <li class="flex gap-3">
+                        <i class="far fa-check mt-1 text-purple-600" aria-hidden="true"></i>
+                        <p><strong class="font-bold text-gray-900">Keep repertoire organised:</strong> Manage songs as they move from preparation to learning, active repertoire and archive.</p>
+                    </li>
+                </ul>
+
+                <aside class="border-t-2 border-sky-500 pt-8 lg:col-span-1 lg:border-l-2 lg:border-t-0 lg:pl-10 lg:pt-0">
+                    <i class="far fa-headphones mb-5 text-3xl text-purple-600" aria-hidden="true"></i>
+                    <p class="text-sm font-medium leading-relaxed text-gray-600">
+                        The audio player keeps playing as you move around the app, so you can keep listening while checking another song or reviewing other choir information.
+                    </p>
+                    <p class="text-sm font-medium leading-relaxed text-gray-600">
+                        Whether you're learning your first concert piece or polishing a competition set, your music is ready when you are.
+                    </p>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="scroll-mt-8 border-t border-gray-100 bg-gray-50 px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-3xl text-center">
+            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Events</p>
+            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Keep rehearsals and performances on track.</h2>
+            <p class="mt-5 text-sm leading-relaxed text-gray-600">Bring calendars, attendance, set lists, schedules and riser positions together in one place. Give everyone a clearer picture of what’s coming up, what they’re working towards and how it all comes together.</p>
+        </div>
+    </section>
+
+    <section id="membership" class="scroll-mt-8 bg-white px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-3xl text-center">
+            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Membership</p>
+            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Spend less time on admin.</h2>
+            <p class="mt-5 text-sm leading-relaxed text-gray-600">Keep member details, roles, fees and onboarding organised in one place. Spend less time chasing information and more time supporting your singers and shaping the choir you want to be.</p>
+        </div>
+    </section>
+
+    <section id="communication" class="scroll-mt-8 border-t border-gray-100 bg-gray-50 px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-3xl text-center">
+            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Communication</p>
+            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">Keep everyone in the loop.</h2>
+            <p class="mt-5 text-sm leading-relaxed text-gray-600">Send updates to the whole choir or just the people who need them. Make it easier for everyone to stay connected to what’s happening, share in the excitement of what’s ahead and feel part of the bigger picture.</p>
+        </div>
+    </section>
+
+    <section id="your-choirs" class="scroll-mt-8 bg-white px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-3xl text-center">
+            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">Your choirs</p>
+            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">One login. All your choirs.</h2>
+            <p class="mt-5 text-sm leading-relaxed text-gray-600">Some people sing with several independent choirs. Others manage one organisation with multiple ensembles, sections or musical groups. Choir Concierge connects the things that belong together, while giving each group the space and structure it needs.</p>
+        </div>
+    </section>
+
+    <section id="more-tools" class="scroll-mt-8 border-t border-gray-100 bg-gray-50 px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-3xl text-center">
+            <p class="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-purple-600">More tools</p>
+            <h2 class="text-2xl font-black text-gray-900 sm:text-3xl">More time making music together.</h2>
+            <p class="mt-5 text-sm leading-relaxed text-gray-600">From learning music and managing events to keeping people connected, Choir Concierge brings your choir’s day-to-day activities together in one easy-to-use place.</p>
+        </div>
+    </section>
+</main>
