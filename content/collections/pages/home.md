@@ -203,20 +203,20 @@ bard_field:
               - 'Up to 25 active members'
               - 'All plans include ALL features'
               - 'Plus unmetred storage'
-            price: $119
+            price: $21
             currency: USD
-            frequency: /Year
+            frequency: /mo
           -
             id: lyb4buwv
             name: Medium
-            description: '25 - 50 users'
+            description: '26 - 50 users'
             features:
               - 'Up to 50 active members'
               - 'All plans include ALL features'
               - 'Plus unmetred storage'
-            price: $199
+            price: $33
             currency: USD
-            frequency: /Year
+            frequency: /mo
           -
             id: lyb4dryj
             name: Large
@@ -225,9 +225,9 @@ bard_field:
               - '51+ active members'
               - 'All plans include ALL features'
               - 'Plus unmetred storage'
-            price: $289
+            price: $51
             currency: USD
-            frequency: /Year
+            frequency: /mo
         call_to_action: |-
           **Ready for easier choir management?**
 
