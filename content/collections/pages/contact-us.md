@@ -18,11 +18,11 @@ bard_field:
         aside_content: 'If you’re eager to experience our software firsthand, please book a demo call. This will allow you to explore the full potential of our software and discover how it can meet your specific needs. We look forward to providing you with an exceptional demo experience!'
         button_button:
           label: 'Book a Demo'
-          url: 'https://calendly.com/hayleybech'
+          url: 'https://calendly.com/hayleybech/30min'
           variant: primary
         aside_button:
           label: 'Book a Demo'
-          url: 'https://calendly.com/hayleybech'
+          url: 'https://calendly.com/hayleybech/30min'
           external_link: true
           variant: primary
 parent: home
